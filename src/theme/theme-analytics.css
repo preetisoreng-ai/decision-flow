@@ -1,0 +1,79 @@
+/* 🎨 ============================================================= */
+/* CUSTOM THEME · "analytics"                                        */
+/* Palette sampled from the NucliOS "Supplier Risk Analytics"        */
+/* reference chart. Ranked categorical order:                        */
+/*   1 navy  2 coral  3 tan  4 light-blue  5 teal  (+ 5 tints)       */
+/*                                                                    */
+/* This file ONLY overrides colour tokens. It never touches a        */
+/* component. Activate it by adding class="theme-analytics" to a      */
+/* wrapping element (or <html>). Remove the class to go back to the   */
+/* default NucliOS brand. Everything not listed here is inherited     */
+/* from theme-tokens.css, so this stays short and safe to edit.       */
+/* ================================================================= */
+
+.theme-analytics {
+  /* ---- Primary brand colour → dark indigo / navy (rank 1) ---- */
+  --color-background-primary: #1e1150;
+  --color-background-primary-hover: #2a1966;
+  --color-background-primary-pressed: #140b38;
+  --color-background-primary-selected: #ece9f6;
+  --color-background-primary-subtle: #b6abd9;
+  --color-background-primary-subtle-hover: #9385c7;
+  --color-background-primary-subtle-pressed: #6f5fb3;
+  --color-background-primary-muted: #f0edf8;
+  --color-background-primary-muted-hover: #e4def0;
+
+  --color-border-primary: #1e1150;
+  --color-border-primary-focused: #ece9f6;
+  --color-border-primary-selected: #2a1966;
+  --color-border-primary-pressed: #140b38;
+
+  --color-text-primary: #1e1150;
+  --color-text-primary-selected: #2a1966;
+  --color-text-primary-pressed: #140b38;
+  --color-text-onprimary: #ffffff;
+
+  --color-icons-primary: #1e1150;
+  --color-icons-primary-selected: #2a1966;
+  --color-icons-primary-pressed: #140b38;
+  --color-icons-onprimary: #ffffff;
+
+  /* ---- Chart / data-visualisation ranking (rank 1 → 10) ----
+     Charts that read these tokens will colour their series in
+     this exact order of importance. */
+  --color-data-visualization-category-1: #1e1150; /* navy       */
+  --color-data-visualization-category-2: #f79e89; /* coral      */
+  --color-data-visualization-category-3: #d8c6a3; /* tan        */
+  --color-data-visualization-category-4: #b4d2e7; /* light blue */
+  --color-data-visualization-category-5: #35c6a0; /* teal       */
+  --color-data-visualization-category-6: #4b3a8f; /* indigo     */
+  --color-data-visualization-category-7: #f7c4b4; /* soft coral */
+  --color-data-visualization-category-8: #e7dabf; /* soft tan   */
+  --color-data-visualization-category-9: #8fb8d6; /* deep blue  */
+  --color-data-visualization-category-10: #7bd9c2; /* mint      */
+}
+
+/* ---- Dark mode of the same theme ----
+   Primary is lightened so it stays visible on dark surfaces. */
+.dark .theme-analytics,
+.theme-analytics.dark {
+  --color-background-primary: #8a79d6;
+  --color-background-primary-hover: #a293e2;
+  --color-background-primary-pressed: #6f5fb3;
+  --color-background-primary-muted: #241a4a;
+
+  --color-border-primary: #8a79d6;
+  --color-text-primary: #a293e2;
+  --color-icons-primary: #a293e2;
+
+  --color-data-visualization-category-1: #6f5fb3; /* lightened navy */
+  --color-data-visualization-category-2: #f79e89;
+  --color-data-visualization-category-3: #d8c6a3;
+  --color-data-visualization-category-4: #b4d2e7;
+  --color-data-visualization-category-5: #35c6a0;
+  --color-data-visualization-category-6: #8a79d6;
+  --color-data-visualization-category-7: #f7c4b4;
+  --color-data-visualization-category-8: #e7dabf;
+  --color-data-visualization-category-9: #8fb8d6;
+  --color-data-visualization-category-10: #7bd9c2;
+}

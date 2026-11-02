@@ -1,0 +1,11 @@
+/* 🎨 CUSTOM THEME · "nuclios"
+   Bridge to the NucliOS theme generated from the Figma "Bento UI Library V2.0".
+   The tokens and components live in ../../nuclios theme/ — this file only wires
+   them in, so the base components in src/components/ui stay untouched.
+   Activate with class="theme-nuclios" (add "dark", "brand-good-year"/"brand-mars",
+   "radius-square"/"radius-round-1..4" as needed). */
+
+@import "../../nuclios theme/tokens/nuclios.css";
+
+/* Let Tailwind see the class names used by the NucliOS components. */
+@source "../../nuclios theme";

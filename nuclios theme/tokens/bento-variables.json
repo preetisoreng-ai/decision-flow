@@ -1,0 +1,5070 @@
+[
+{
+"c": "Colour: Primitives",
+"modes": [
+"NucliOS",
+"GOOD_YEAR",
+"MARS"
+],
+"v": [
+[
+"Primary/50",
+"#f6eeff",
+"#e3eeff",
+"#e6e6ff"
+],
+[
+"Primary/100",
+"#f2e5ff",
+"#c8dfff",
+"#ccccff"
+],
+[
+"Primary/200",
+"#dfc2ff",
+"#8fbeff",
+"#9999ff"
+],
+[
+"Primary/300",
+"#d3affa",
+"#549eff",
+"#6666ff"
+],
+[
+"Primary/400",
+"#b68ae5",
+"#007cff",
+"#3333ff"
+],
+[
+"Primary/500",
+"#9363c7",
+"#005bff",
+"#0000ff"
+],
+[
+"Primary/600",
+"#7745ad",
+"#0048d4",
+"#0000d5"
+],
+[
+"Primary/700",
+"#5e2c94",
+"#00379f",
+"#00006b"
+],
+[
+"Primary/800",
+"#47187a",
+"#00256a",
+"#00006b"
+],
+[
+"Primary/900",
+"#340a62",
+"#001c4f",
+"#000050"
+],
+[
+"Primary/950",
+"#220047",
+"#001335",
+"#000035"
+],
+[
+"Secondary/50",
+"#f7f8fa",
+"#fff8e4",
+"#e0fffb"
+],
+[
+"Secondary/100",
+"#eceef2",
+"#fff0c8",
+"#befff7"
+],
+[
+"Secondary/200",
+"#d4dae3",
+"#ffe38e",
+"#71fff0"
+],
+[
+"Secondary/300",
+"#aebacb",
+"#ffd54c",
+"#00ffe8"
+],
+[
+"Secondary/400",
+"#8295ae",
+"#ffc000",
+"#00ffdf"
+],
+[
+"Secondary/500",
+"#627795",
+"#ffb700",
+"#00ffd8"
+],
+[
+"Secondary/600",
+"#4e607b",
+"#d69300",
+"#00dfb9"
+],
+[
+"Secondary/700",
+"#404d64",
+"#a06e00",
+"#009c81"
+],
+[
+"Secondary/800",
+"#374255",
+"#6b4a00",
+"#006857"
+],
+[
+"Secondary/900",
+"#323a48",
+"#503700",
+"#00342b"
+],
+[
+"Secondary/950",
+"#212630",
+"#362400",
+"#00342b"
+],
+[
+"Neutral/0",
+"#ffffff",
+"#ffffff",
+"#ffffff"
+],
+[
+"Neutral/50",
+"#f2f2f2",
+"#f2f2f2",
+"#f2f2f2"
+],
+[
+"Neutral/100",
+"#e5e5e5",
+"#e5e5e5",
+"#e5e5e5"
+],
+[
+"Neutral/150",
+"#d9d9d9",
+"#d9d9d9",
+"#d9d9d9"
+],
+[
+"Neutral/200",
+"#cccccc",
+"#cccccc",
+"#cccccc"
+],
+[
+"Neutral/250",
+"#bfbfbf",
+"#bfbfbf",
+"#bfbfbf"
+],
+[
+"Neutral/300",
+"#b3b3b3",
+"#b3b3b3",
+"#b3b3b3"
+],
+[
+"Neutral/350",
+"#a6a6a6",
+"#a6a6a6",
+"#a6a6a6"
+],
+[
+"Neutral/400",
+"#999999",
+"#999999",
+"#999999"
+],
+[
+"Neutral/450",
+"#8c8c8c",
+"#8c8c8c",
+"#8c8c8c"
+],
+[
+"Neutral/500",
+"#808080",
+"#808080",
+"#808080"
+],
+[
+"Neutral/550",
+"#737373",
+"#737373",
+"#737373"
+],
+[
+"Neutral/600",
+"#666666",
+"#666666",
+"#666666"
+],
+[
+"Neutral/650",
+"#595959",
+"#595959",
+"#595959"
+],
+[
+"Neutral/700",
+"#4c4c4c",
+"#4c4c4c",
+"#4c4c4c"
+],
+[
+"Neutral/750",
+"#404040",
+"#404040",
+"#404040"
+],
+[
+"Neutral/800",
+"#333333",
+"#333333",
+"#333333"
+],
+[
+"Neutral/850",
+"#262626",
+"#262626",
+"#262626"
+],
+[
+"Neutral/900",
+"#1a1a1a",
+"#1a1a1a",
+"#1a1a1a"
+],
+[
+"Neutral/950",
+"#0a0a0a",
+"#0a0a0a",
+"#0a0a0a"
+],
+[
+"Neutral/1000",
+"#000000",
+"#000000",
+"#000000"
+],
+[
+"Neutral/0 @ 0%",
+"#ffffff00",
+"#ffffff00",
+"#ffffff00"
+],
+[
+"Neutral/0 @ 30%",
+"#ffffff4d",
+"#ffffff4d",
+"#ffffff4d"
+],
+[
+"Neutral/0 @ 70%",
+"#ffffffb2",
+"#ffffffb2",
+"#ffffffb2"
+],
+[
+"Neutral/1000 @ 0%",
+"#00000000",
+"#00000000",
+"#00000000"
+],
+[
+"Neutral/1000 @ 30%",
+"#0000004d",
+"#0000004d",
+"#0000004d"
+],
+[
+"Neutral/1000 @ 70%",
+"#000000b2",
+"#000000b2",
+"#000000b2"
+],
+[
+"Neutral/950 @ 12%",
+"#1a1a1a1f",
+"#1a1a1a1f",
+"#1a1a1a1f"
+],
+[
+"Neutral/950 @ 14%",
+"#1a1a1a24",
+"#1a1a1a24",
+"#1a1a1a24"
+],
+[
+"Neutral/950 @ 20%",
+"#1a1a1a33",
+"#1a1a1a33",
+"#1a1a1a33"
+],
+[
+"Red/50",
+"#fff2f1",
+"#fff2f1",
+"#fff2f1"
+],
+[
+"Red/100",
+"#ffe0e0",
+"#ffe0e0",
+"#ffe0e0"
+],
+[
+"Red/200",
+"#ffc7c7",
+"#ffc7c7",
+"#ffc7c7"
+],
+[
+"Red/300",
+"#ffa1a0",
+"#ffa1a0",
+"#ffa1a0"
+],
+[
+"Red/400",
+"#ff6a69",
+"#ff6a69",
+"#ff6a69"
+],
+[
+"Red/500",
+"#fa3a3a",
+"#fa3a3a",
+"#fa3a3a"
+],
+[
+"Red/600",
+"#e61b1b",
+"#e61b1b",
+"#e61b1b"
+],
+[
+"Red/700",
+"#c21314",
+"#c21314",
+"#c21314"
+],
+[
+"Red/800",
+"#a01414",
+"#a01414",
+"#a01414"
+],
+[
+"Red/900",
+"#841918",
+"#841918",
+"#841918"
+],
+[
+"Red/950",
+"#490606",
+"#490606",
+"#490606"
+],
+[
+"Green/50",
+"#f2f8f2",
+"#f2f8f2",
+"#f2f8f2"
+],
+[
+"Green/100",
+"#deefdd",
+"#deefdd",
+"#deefdd"
+],
+[
+"Green/200",
+"#bcdebd",
+"#bcdebd",
+"#bcdebd"
+],
+[
+"Green/300",
+"#8cc491",
+"#8cc491",
+"#8cc491"
+],
+[
+"Green/400",
+"#62a76a",
+"#62a76a",
+"#62a76a"
+],
+[
+"Green/500",
+"#3f8b4b",
+"#3f8b4b",
+"#3f8b4b"
+],
+[
+"Green/600",
+"#2e6d3a",
+"#2e6d3a",
+"#2e6d3a"
+],
+[
+"Green/700",
+"#25572f",
+"#25572f",
+"#25572f"
+],
+[
+"Green/800",
+"#1f4627",
+"#1f4627",
+"#1f4627"
+],
+[
+"Green/900",
+"#1a3a21",
+"#1a3a21",
+"#1a3a21"
+],
+[
+"Green/950",
+"#1a3a21",
+"#1a3a21",
+"#1a3a21"
+],
+[
+"Blue/50",
+"#eef2ff",
+"#eef2ff",
+"#eef2ff"
+],
+[
+"Blue/100",
+"#d9e2ff",
+"#d9e2ff",
+"#d9e2ff"
+],
+[
+"Blue/200",
+"#bcceff",
+"#bcceff",
+"#bcceff"
+],
+[
+"Blue/300",
+"#8eadff",
+"#8eadff",
+"#8eadff"
+],
+[
+"Blue/400",
+"#5981ff",
+"#5981ff",
+"#5981ff"
+],
+[
+"Blue/500",
+"#3355ff",
+"#3355ff",
+"#3355ff"
+],
+[
+"Blue/600",
+"#1b32f6",
+"#1b32f6",
+"#1b32f6"
+],
+[
+"Blue/700",
+"#141ee1",
+"#141ee1",
+"#141ee1"
+],
+[
+"Blue/800",
+"#161ab6",
+"#161ab6",
+"#161ab6"
+],
+[
+"Blue/900",
+"#191e8f",
+"#191e8f",
+"#191e8f"
+],
+[
+"Blue/950",
+"#191e8f",
+"#191e8f",
+"#191e8f"
+],
+[
+"Orange/50",
+"#fffaed",
+"#fffaed",
+"#fffaed"
+],
+[
+"Orange/100",
+"#fff5d5",
+"#fff5d5",
+"#fff5d5"
+],
+[
+"Orange/200",
+"#fee4aa",
+"#fee4aa",
+"#fee4aa"
+],
+[
+"Orange/300",
+"#fdcf75",
+"#fdcf75",
+"#fdcf75"
+],
+[
+"Orange/400",
+"#fbb03c",
+"#fbb03c",
+"#fbb03c"
+],
+[
+"Orange/500",
+"#f99618",
+"#f99618",
+"#f99618"
+],
+[
+"Orange/600",
+"#f27f0d",
+"#f27f0d",
+"#f27f0d"
+],
+[
+"Orange/700",
+"#c25d0b",
+"#c25d0b",
+"#c25d0b"
+],
+[
+"Orange/800",
+"#9a4a12",
+"#9a4a12",
+"#9a4a12"
+],
+[
+"Orange/900",
+"#7c3e12",
+"#7c3e12",
+"#7c3e12"
+],
+[
+"Orange/950",
+"#431d07",
+"#431d07",
+"#431d07"
+],
+[
+"Muted Purple/50",
+"#f2f3fc",
+"#f2f3fc",
+"#f2f3fc"
+],
+[
+"Muted Purple/100",
+"#e7e8fa",
+"#e7e8fa",
+"#e7e8fa"
+],
+[
+"Muted Purple/200",
+"#d2d6f3",
+"#d2d6f3",
+"#d2d6f3"
+],
+[
+"Muted Purple/300",
+"#b6baeb",
+"#b6baeb",
+"#b6baeb"
+],
+[
+"Muted Purple/400",
+"#9899e1",
+"#9899e1",
+"#9899e1"
+],
+[
+"Muted Purple/500",
+"#857fd5",
+"#857fd5",
+"#857fd5"
+],
+[
+"Muted Purple/600",
+"#6859c1",
+"#6859c1",
+"#6859c1"
+],
+[
+"Muted Purple/700",
+"#6355ad",
+"#6355ad",
+"#6355ad"
+],
+[
+"Muted Purple/800",
+"#52488c",
+"#52488c",
+"#52488c"
+],
+[
+"Muted Purple/900",
+"#443e71",
+"#443e71",
+"#443e71"
+],
+[
+"Muted Purple/900 2",
+"#292442",
+"#292442",
+"#292442"
+],
+[
+"Brown/50",
+"#f8f8f8",
+"#f8f8f8",
+"#f8f8f8"
+],
+[
+"Brown/100",
+"#f4f2ef",
+"#f4f2ef",
+"#f4f2ef"
+],
+[
+"Brown/200",
+"#e9e4df",
+"#e9e4df",
+"#e9e4df"
+],
+[
+"Brown/300",
+"#dfd7d0",
+"#dfd7d0",
+"#dfd7d0"
+],
+[
+"Brown/400",
+"#d4c9c0",
+"#d4c9c0",
+"#d4c9c0"
+],
+[
+"Brown/500",
+"#c9bcb0",
+"#c9bcb0",
+"#c9bcb0"
+],
+[
+"Brown/600",
+"#beafa0",
+"#beafa0",
+"#beafa0"
+],
+[
+"Brown/700",
+"#b3a190",
+"#b3a190",
+"#b3a190"
+],
+[
+"Brown/800",
+"#a99481",
+"#a99481",
+"#a99481"
+],
+[
+"Brown/900",
+"#9e8671",
+"#9e8671",
+"#9e8671"
+],
+[
+"Brown/950",
+"#937961",
+"#937961",
+"#937961"
+],
+[
+"Lime/50",
+"#fefffa",
+"#fefffa",
+"#fefffa"
+],
+[
+"Lime/100",
+"#fdfff7",
+"#fdfff7",
+"#fdfff7"
+],
+[
+"Lime/200",
+"#f6ffde",
+"#f6ffde",
+"#f6ffde"
+],
+[
+"Lime/300",
+"#f0ffc4",
+"#f0ffc4",
+"#f0ffc4"
+],
+[
+"Lime/400",
+"#def3a2",
+"#def3a2",
+"#def3a2"
+],
+[
+"Lime/500",
+"#c1d97c",
+"#c1d97c",
+"#c1d97c"
+],
+[
+"Lime/600",
+"#a5bf5a",
+"#a5bf5a",
+"#a5bf5a"
+],
+[
+"Lime/700",
+"#8ba63d",
+"#8ba63d",
+"#8ba63d"
+],
+[
+"Lime/800",
+"#728c26",
+"#728c26",
+"#728c26"
+],
+[
+"Lime/900",
+"#5a7314",
+"#5a7314",
+"#5a7314"
+],
+[
+"Lime/950",
+"#445906",
+"#445906",
+"#445906"
+],
+[
+"Magenta/50",
+"#ffebf5",
+"#ffebf5",
+"#ffebf5"
+],
+[
+"Magenta/100",
+"#ffe3f1",
+"#ffe3f1",
+"#ffe3f1"
+],
+[
+"Magenta/200",
+"#ffc9e4",
+"#ffc9e4",
+"#ffc9e4"
+],
+[
+"Magenta/300",
+"#ffb0d7",
+"#ffb0d7",
+"#ffb0d7"
+],
+[
+"Magenta/400",
+"#f490c2",
+"#f490c2",
+"#f490c2"
+],
+[
+"Magenta/500",
+"#e37db0",
+"#e37db0",
+"#e37db0"
+],
+[
+"Magenta/600",
+"#c24c87",
+"#c24c87",
+"#c24c87"
+],
+[
+"Magenta/700",
+"#a8316d",
+"#a8316d",
+"#a8316d"
+],
+[
+"Magenta/800",
+"#8f1b55",
+"#8f1b55",
+"#8f1b55"
+],
+[
+"Magenta/900",
+"#750b40",
+"#750b40",
+"#750b40"
+],
+[
+"Magenta/950",
+"#5c002e",
+"#5c002e",
+"#5c002e"
+],
+[
+"Mint/50",
+"#ebfffb",
+"#ebfffb",
+"#ebfffb"
+],
+[
+"Mint/100",
+"#d1fff5",
+"#d1fff5",
+"#d1fff5"
+],
+[
+"Mint/200",
+"#9effea",
+"#9effea",
+"#9effea"
+],
+[
+"Mint/300",
+"#6bffde",
+"#6bffde",
+"#6bffde"
+],
+[
+"Mint/400",
+"#49e5c3",
+"#49e5c3",
+"#49e5c3"
+],
+[
+"Mint/500",
+"#2ecdaa",
+"#2ecdaa",
+"#2ecdaa"
+],
+[
+"Mint/600",
+"#15b290",
+"#15b290",
+"#15b290"
+],
+[
+"Mint/700",
+"#039978",
+"#039978",
+"#039978"
+],
+[
+"Mint/800",
+"#008063",
+"#008063",
+"#008063"
+],
+[
+"Mint/900",
+"#006650",
+"#006650",
+"#006650"
+],
+[
+"Mint/950",
+"#004d3c",
+"#004d3c",
+"#004d3c"
+],
+[
+"Plum/50",
+"#f9eeff",
+"#f9eeff",
+"#f9eeff"
+],
+[
+"Plum/100",
+"#dcc3eb",
+"#dcc3eb",
+"#dcc3eb"
+],
+[
+"Plum/200",
+"#bc99d1",
+"#bc99d1",
+"#bc99d1"
+],
+[
+"Plum/300",
+"#9f74b8",
+"#9f74b8",
+"#9f74b8"
+],
+[
+"Plum/400",
+"#83549e",
+"#83549e",
+"#83549e"
+],
+[
+"Plum/500",
+"#693985",
+"#693985",
+"#693985"
+],
+[
+"Plum/600",
+"#51236b",
+"#51236b",
+"#51236b"
+],
+[
+"Plum/700",
+"#3a1352",
+"#3a1352",
+"#3a1352"
+],
+[
+"Plum/800",
+"#260738",
+"#260738",
+"#260738"
+],
+[
+"Plum/900",
+"#14011f",
+"#14011f",
+"#14011f"
+],
+[
+"Plum/950",
+"#0e0612",
+"#0e0612",
+"#0e0612"
+],
+[
+"Teal/50",
+"#e5fef8",
+"#e5fef8",
+"#e5fef8"
+],
+[
+"Teal/100",
+"#ccede6",
+"#ccede6",
+"#ccede6"
+],
+[
+"Teal/200",
+"#b9ede2",
+"#b9ede2",
+"#b9ede2"
+],
+[
+"Teal/300",
+"#99dbcd",
+"#99dbcd",
+"#99dbcd"
+],
+[
+"Teal/400",
+"#80d2c1",
+"#80d2c1",
+"#80d2c1"
+],
+[
+"Teal/500",
+"#66c9b4",
+"#66c9b4",
+"#66c9b4"
+],
+[
+"Teal/600",
+"#4dc0a7",
+"#4dc0a7",
+"#4dc0a7"
+],
+[
+"Teal/700",
+"#33b79b",
+"#33b79b",
+"#33b79b"
+],
+[
+"Teal/800",
+"#1aae8f",
+"#1aae8f",
+"#1aae8f"
+],
+[
+"Teal/900",
+"#00a582",
+"#00a582",
+"#00a582"
+],
+[
+"Teal/950",
+"#009977",
+"#009977",
+"#009977"
+],
+[
+"Dark brownish purple/50",
+"#08020f",
+"#08020f",
+"#08020f"
+],
+[
+"Dark brownish purple/100",
+"#0e0517",
+"#0e0517",
+"#0e0517"
+],
+[
+"Dark brownish purple/200",
+"#0f061a",
+"#0f061a",
+"#0f061a"
+],
+[
+"Dark brownish purple/300",
+"#11071c",
+"#11071c",
+"#11071c"
+],
+[
+"Dark brownish purple/400",
+"#13081f",
+"#13081f",
+"#13081f"
+],
+[
+"Dark brownish purple/500",
+"#150a21",
+"#150a21",
+"#150a21"
+],
+[
+"Dark brownish purple/600",
+"#190f24",
+"#190f24",
+"#190f24"
+],
+[
+"Dark brownish purple/700",
+"#1b1027",
+"#1b1027",
+"#1b1027"
+],
+[
+"Dark brownish purple/800",
+"#1e1429",
+"#1e1429",
+"#1e1429"
+],
+[
+"Dark brownish purple/900",
+"#21182c",
+"#21182c",
+"#21182c"
+],
+[
+"Dark brownish purple/950",
+"#251c2e",
+"#251c2e",
+"#251c2e"
+],
+[
+"Light brownish purple/50",
+"#fbeeff",
+"#fbeeff",
+"#fbeeff"
+],
+[
+"Light brownish purple/100",
+"#f4d4ff",
+"#f4d4ff",
+"#f4d4ff"
+],
+[
+"Light brownish purple/200",
+"#f3d1ff",
+"#f3d1ff",
+"#f3d1ff"
+],
+[
+"Light brownish purple/300",
+"#dfbeeb",
+"#dfbeeb",
+"#dfbeeb"
+],
+[
+"Light brownish purple/400",
+"#c6a7d1",
+"#c6a7d1",
+"#c6a7d1"
+],
+[
+"Light brownish purple/500",
+"#ae91b8",
+"#ae91b8",
+"#ae91b8"
+],
+[
+"Light brownish purple/600",
+"#957b9e",
+"#957b9e",
+"#957b9e"
+],
+[
+"Light brownish purple/700",
+"#7d6685",
+"#7d6685",
+"#7d6685"
+],
+[
+"Light brownish purple/800",
+"#64516b",
+"#64516b",
+"#64516b"
+],
+[
+"Light brownish purple/900",
+"#4c3d52",
+"#4c3d52",
+"#4c3d52"
+],
+[
+"Light brownish purple/950",
+"#322937",
+"#322937",
+"#322937"
+],
+[
+"Reddish pink/50",
+"#fff8f9",
+"#fff8f9",
+"#fff8f9"
+],
+[
+"Reddish pink/100",
+"#faeff0",
+"#faeff0",
+"#faeff0"
+],
+[
+"Reddish pink/200",
+"#f5dfe1",
+"#f5dfe1",
+"#f5dfe1"
+],
+[
+"Reddish pink/300",
+"#f1cfd2",
+"#f1cfd2",
+"#f1cfd2"
+],
+[
+"Reddish pink/400",
+"#ecbfc3",
+"#ecbfc3",
+"#ecbfc3"
+],
+[
+"Reddish pink/500",
+"#e7afb4",
+"#e7afb4",
+"#e7afb4"
+],
+[
+"Reddish pink/600",
+"#e29fa6",
+"#e29fa6",
+"#e29fa6"
+],
+[
+"Reddish pink/700",
+"#dd8f97",
+"#dd8f97",
+"#dd8f97"
+],
+[
+"Reddish pink/800",
+"#d97f88",
+"#d97f88",
+"#d97f88"
+],
+[
+"Reddish pink/900",
+"#d46f79",
+"#d46f79",
+"#d46f79"
+],
+[
+"Reddish pink/950",
+"#cf5f6a",
+"#cf5f6a",
+"#cf5f6a"
+]
+]
+},
+{
+"c": "Colour: Anchors",
+"modes": [
+"Light",
+"Dark"
+],
+"v": [
+[
+"Primary/Main/100",
+"@Primary/600",
+"@Primary/950"
+],
+[
+"Primary/Main/200",
+"@Primary/700",
+"@Primary/900"
+],
+[
+"Primary/Main/300",
+"@Primary/800",
+"@Primary/800"
+],
+[
+"Primary/Main/400",
+"@Primary/100",
+"@Primary/700"
+],
+[
+"Primary/Main/On",
+"@Neutral/0",
+"@Neutral/0"
+],
+[
+"Primary/Subtle/100",
+"@Primary/300",
+"@Primary/700"
+],
+[
+"Primary/Subtle/200",
+"@Primary/400",
+"@Primary/800"
+],
+[
+"Primary/Subtle/300",
+"@Primary/500",
+"@Primary/900"
+],
+[
+"Primary/Subtle/400",
+"@Primary/100",
+"@Primary/200"
+],
+[
+"Primary/Subtle/On",
+"@Neutral/950",
+"@Neutral/0"
+],
+[
+"Primary/Muted/100",
+"@Primary/50",
+"@Primary/400"
+],
+[
+"Primary/Muted/200",
+"@Primary/100",
+"@Primary/500"
+],
+[
+"Primary/Muted/300",
+"@Primary/200",
+"@Primary/600"
+],
+[
+"Primary/Muted/400",
+"@Primary/100",
+"@Primary/100"
+],
+[
+"Primary/Muted/On",
+"@Neutral/950",
+"@Neutral/950"
+],
+[
+"Secondary/Main/100",
+"@Secondary/50",
+"@Secondary/950"
+],
+[
+"Secondary/Main/200",
+"@Secondary/100",
+"@Secondary/900"
+],
+[
+"Secondary/Main/300",
+"@Secondary/200",
+"@Secondary/800"
+],
+[
+"Secondary/Main/400",
+"@Secondary/100",
+"@Secondary/300"
+],
+[
+"Secondary/Main/On",
+"@Neutral/950",
+"@Neutral/0"
+],
+[
+"Secondary/Subtle/100",
+"@Secondary/300",
+"@Secondary/700"
+],
+[
+"Secondary/Subtle/200",
+"@Secondary/400",
+"@Secondary/800"
+],
+[
+"Secondary/Subtle/300",
+"@Secondary/500",
+"@Secondary/900"
+],
+[
+"Secondary/Subtle/400",
+"@Secondary/100",
+"@Secondary/300"
+],
+[
+"Secondary/Subtle/On",
+"@Neutral/950",
+"@Neutral/0"
+]
+]
+},
+{
+"c": "Colour: Semantics",
+"modes": [
+"Light",
+"Dark"
+],
+"v": [
+[
+"Background/neutral",
+"@Neutral/0",
+"@Neutral/800"
+],
+[
+"Background/neutral-hover",
+"@Neutral/50",
+"@Neutral/750"
+],
+[
+"Background/neutral-pressed",
+"@Neutral/100",
+"@Neutral/700"
+],
+[
+"Background/neutral-selected",
+"@Neutral/150",
+"@Neutral/700"
+],
+[
+"Background/neutral-disabled",
+"@Neutral/100",
+"@Neutral/700"
+],
+[
+"Background/subtle",
+"@Neutral/50",
+"@Neutral/800"
+],
+[
+"Background/subtle-hover",
+"@Neutral/100",
+"@Neutral/750"
+],
+[
+"Background/subtle-pressed",
+"@Neutral/200",
+"@Neutral/700"
+],
+[
+"Background/subtle-selected",
+"@Neutral/250",
+"@Neutral/700"
+],
+[
+"Background/subtle-disabled",
+"@Neutral/100",
+"@Neutral/700"
+],
+[
+"Background/inverse",
+"@Neutral/900",
+"@Neutral/50"
+],
+[
+"Background/inverse-hover",
+"@Neutral/800",
+"@Neutral/100"
+],
+[
+"Background/inverse-pressed",
+"@Neutral/700",
+"@Neutral/200"
+],
+[
+"Background/primary",
+"@Primary/Main/100",
+"@Primary/600"
+],
+[
+"Background/primary-hover",
+"@Primary/Main/200",
+"@Primary/700"
+],
+[
+"Background/primary-pressed",
+"@Primary/Main/300",
+"@Primary/200"
+],
+[
+"Background/primary-selected",
+"@Primary/Main/400",
+"@Primary/100"
+],
+[
+"Background/primary-disabled",
+"@Neutral/50",
+"@Primary/50"
+],
+[
+"Background/primary-subtle",
+"@Primary/Subtle/100",
+"@Primary/Subtle/100"
+],
+[
+"Background/primary-subtle-hover",
+"@Primary/Subtle/200",
+"@Primary/900"
+],
+[
+"Background/primary-subtle-pressed",
+"@Primary/Subtle/300",
+"@Primary/900"
+],
+[
+"Background/primary-subtle-selected",
+"@Primary/Subtle/400",
+"@Primary/100"
+],
+[
+"Background/primary-subtle-disabled",
+"@Neutral/100",
+"@Neutral/250"
+],
+[
+"Background/primary-muted",
+"@Primary/Muted/100",
+"@Primary/800"
+],
+[
+"Background/primary-muted-hover",
+"@Primary/Muted/200",
+"@Primary/800"
+],
+[
+"Background/primary-muted-pressed",
+"@Primary/Muted/300",
+"@Primary/800"
+],
+[
+"Background/primary-muted-selected",
+"@Primary/Muted/400",
+"@Primary/800"
+],
+[
+"Background/primary-muted-disabled",
+"@Neutral/100",
+"@Primary/800"
+],
+[
+"Background/secondary",
+"@Secondary/Main/100",
+"@Secondary/900"
+],
+[
+"Background/secondary-hover",
+"@Secondary/Main/200",
+"@Secondary/800"
+],
+[
+"Background/secondary-pressed",
+"@Secondary/Main/300",
+"@Secondary/500"
+],
+[
+"Background/secondary-selected",
+"@Secondary/Main/400",
+"@Secondary/500"
+],
+[
+"Background/secondary-disabled",
+"@Neutral/200",
+"@Neutral/200"
+],
+[
+"Background/secondary-subtle",
+"@Secondary/Subtle/100",
+"@Secondary/700"
+],
+[
+"Background/secondary-subtle-hover",
+"@Secondary/Subtle/200",
+"@Secondary/500"
+],
+[
+"Background/secondary-subtle-pressed",
+"@Secondary/Subtle/300",
+"@Secondary/300"
+],
+[
+"Background/secondary-subtle-selected",
+"@Secondary/Subtle/400",
+"@Secondary/300"
+],
+[
+"Background/secondary-subtle-disabled",
+"@Neutral/200",
+"@Neutral/200"
+],
+[
+"Background/negative",
+"@Red/600",
+"@Red/400"
+],
+[
+"Background/negative-hover",
+"@Red/700",
+"@Red/300"
+],
+[
+"Background/negative-pressed",
+"@Red/800",
+"@Red/200"
+],
+[
+"Background/negative-disabled",
+"@Red/100",
+"@Red/100"
+],
+[
+"Background/negative-subtle",
+"@Red/50",
+"@Red/600"
+],
+[
+"Background/negative-subtle-hover",
+"@Red/100",
+"@Red/700"
+],
+[
+"Background/negative-subtle-pressed",
+"@Red/200",
+"@Red/800"
+],
+[
+"Background/positive",
+"@Green/500",
+"@Green/50"
+],
+[
+"Background/positive-hover",
+"@Green/600",
+"@Green/100"
+],
+[
+"Background/positive-pressed",
+"@Green/700",
+"@Green/200"
+],
+[
+"Background/positive-disabled",
+"@Green/100",
+"@Green/200"
+],
+[
+"Background/positive-subtle",
+"@Green/50",
+"@Green/500"
+],
+[
+"Background/positive-subtle-hover",
+"@Green/100",
+"@Green/600"
+],
+[
+"Background/positive-subtle-pressed",
+"@Green/200",
+"@Green/700"
+],
+[
+"Background/warning",
+"@Orange/500",
+"@Orange/200"
+],
+[
+"Background/warning-hover",
+"@Orange/600",
+"@Orange/300"
+],
+[
+"Background/warning-pressed",
+"@Orange/700",
+"@Orange/400"
+],
+[
+"Background/warning-disabled",
+"@Orange/100",
+"@Orange/400"
+],
+[
+"Background/warning-subtle",
+"@Orange/50",
+"@Orange/600"
+],
+[
+"Background/warning-subtle-hover",
+"@Orange/100",
+"@Orange/500"
+],
+[
+"Background/warning-subtle-pressed",
+"@Orange/200",
+"@Orange/400"
+],
+[
+"Background/information",
+"@Blue/500",
+"@Blue/400"
+],
+[
+"Background/information-hover",
+"@Blue/600",
+"@Blue/300"
+],
+[
+"Background/information-pressed",
+"@Blue/700",
+"@Blue/200"
+],
+[
+"Background/information-disabled",
+"@Blue/100",
+"@Blue/200"
+],
+[
+"Background/information-subtle",
+"@Blue/50",
+"@Blue/800"
+],
+[
+"Background/information-subtle-hover",
+"@Blue/100",
+"@Blue/700"
+],
+[
+"Background/information-subtle-pressed",
+"@Blue/200",
+"@Blue/600"
+],
+[
+"Border/neutral",
+"@Neutral/250",
+"@Neutral/650"
+],
+[
+"Border/neutral-focused",
+"@Neutral/300",
+"@Neutral/700"
+],
+[
+"Border/neutral-pressed",
+"@Neutral/350",
+"@Neutral/700"
+],
+[
+"Border/neutral-selected",
+"@Neutral/400",
+"@Neutral/600"
+],
+[
+"Border/neutral-disabled",
+"@Neutral/200",
+"@Neutral/800"
+],
+[
+"Border/neutral-inverse",
+"@Neutral/0",
+"@Neutral/800"
+],
+[
+"Border/inverted",
+"@Neutral/900",
+"@Neutral/50"
+],
+[
+"Border/subtle",
+"@Neutral/150",
+"@Neutral/550"
+],
+[
+"Border/subtle-focused",
+"@Neutral/200",
+"@Neutral/550"
+],
+[
+"Border/subtle-pressed",
+"@Neutral/250",
+"@Neutral/550"
+],
+[
+"Border/subtle-selected",
+"@Neutral/300",
+"@Neutral/550"
+],
+[
+"Border/subtle-disabled",
+"@Neutral/200",
+"@Neutral/800"
+],
+[
+"Border/muted",
+"@Neutral/100",
+"@Neutral/550"
+],
+[
+"Border/muted-focused",
+"@Neutral/150",
+"@Neutral/550"
+],
+[
+"Border/muted-pressed",
+"@Neutral/200",
+"@Neutral/550"
+],
+[
+"Border/muted-selected",
+"@Neutral/200",
+"@Neutral/550"
+],
+[
+"Border/muted-disabled",
+"@Neutral/200",
+"@Neutral/800"
+],
+[
+"Border/primary",
+"@Primary/Main/100",
+"@Primary/600"
+],
+[
+"Border/primary-focused",
+"@Primary/Main/400",
+"@Primary/400"
+],
+[
+"Border/primary-selected",
+"@Primary/Main/200",
+"@Muted Purple/500"
+],
+[
+"Border/primary-pressed",
+"@Primary/Main/300",
+"@Primary/200"
+],
+[
+"Border/primary-disabled",
+"@Neutral/200",
+"@Muted Purple/200"
+],
+[
+"Border/primary-subtle",
+"@Primary/Subtle/100",
+"@Primary/600"
+],
+[
+"Border/primary-subtle-focused",
+"@Primary/Subtle/400",
+"@Primary/600"
+],
+[
+"Border/primary-subtle-selected",
+"@Primary/Subtle/200",
+"@Primary/600"
+],
+[
+"Border/primary-subtle-pressed",
+"@Primary/Subtle/300",
+"@Primary/600"
+],
+[
+"Border/primary-subtle-disabled",
+"@Neutral/150",
+"@Primary/600"
+],
+[
+"Border/primary-muted",
+"@Primary/Muted/100",
+"@Primary/600"
+],
+[
+"Border/primary-muted-focused",
+"@Primary/Muted/400",
+"@Primary/600"
+],
+[
+"Border/primary-muted-selected",
+"@Primary/Muted/200",
+"@Primary/600"
+],
+[
+"Border/primary-muted-pressed",
+"@Primary/Muted/300",
+"@Primary/600"
+],
+[
+"Border/primary-muted-disabled",
+"@Neutral/100",
+"@Primary/600"
+],
+[
+"Border/secondary",
+"@Secondary/Main/100",
+"@Primary/600"
+],
+[
+"Border/secondary-focused",
+"@Secondary/Main/400",
+"@Primary/400"
+],
+[
+"Border/secondary-selected",
+"@Secondary/Main/400",
+"@Muted Purple/500"
+],
+[
+"Border/secondary-pressed",
+"@Secondary/Main/300",
+"@Primary/200"
+],
+[
+"Border/secondary-disabled",
+"@Neutral/200",
+"@Muted Purple/200"
+],
+[
+"Border/secondary-subtle",
+"@Secondary/Subtle/100",
+"@Primary/600"
+],
+[
+"Border/secondary-subtle-focused",
+"@Secondary/Subtle/400",
+"@Primary/600"
+],
+[
+"Border/secondary-subtle-selected",
+"@Secondary/Subtle/200",
+"@Primary/600"
+],
+[
+"Border/secondary-subtle-pressed",
+"@Secondary/Subtle/300",
+"@Primary/600"
+],
+[
+"Border/secondary-subtle-disabled",
+"@Neutral/300",
+"@Primary/600"
+],
+[
+"Border/negative",
+"@Red/400",
+"@Red/300"
+],
+[
+"Border/negative-pressed",
+"@Red/500",
+"@Red/200"
+],
+[
+"Border/negative-focused",
+"@Red/600",
+"@Red/500"
+],
+[
+"Border/negative-subtle",
+"@Red/100",
+"@Red/200"
+],
+[
+"Border/negative-disabled",
+"@Red/200",
+"@Red/300"
+],
+[
+"Border/positive",
+"@Green/500",
+"@Green/300"
+],
+[
+"Border/positive-pressed",
+"@Green/600",
+"@Green/200"
+],
+[
+"Border/positive-focused",
+"@Green/700",
+"@Green/600"
+],
+[
+"Border/positive-subtle",
+"@Green/100",
+"@Green/200"
+],
+[
+"Border/positive-disabled",
+"@Green/200",
+"@Green/600"
+],
+[
+"Border/warning",
+"@Orange/500",
+"@Orange/400"
+],
+[
+"Border/warning-pressed",
+"@Orange/600",
+"@Orange/600"
+],
+[
+"Border/warning-focused",
+"@Orange/700",
+"@Orange/600"
+],
+[
+"Border/warning-subtle",
+"@Orange/100",
+"@Orange/200"
+],
+[
+"Border/warning-disabled",
+"@Orange/200",
+"@Orange/600"
+],
+[
+"Border/information",
+"@Blue/500",
+"@Blue/400"
+],
+[
+"Border/information-pressed",
+"@Blue/600",
+"@Blue/600"
+],
+[
+"Border/information-focused",
+"@Blue/700",
+"@Blue/600"
+],
+[
+"Border/information-subtle",
+"@Blue/100",
+"@Blue/200"
+],
+[
+"Border/information-disabled",
+"@Blue/200",
+"@Blue/600"
+],
+[
+"Text/neutral",
+"@Neutral/900",
+"@Neutral/0"
+],
+[
+"Text/neutral-disabled",
+"@Neutral/300",
+"@Neutral/400"
+],
+[
+"Text/neutral-subtle",
+"@Neutral/800",
+"@Neutral/100"
+],
+[
+"Text/neutral-muted",
+"@Neutral/600",
+"@Neutral/200"
+],
+[
+"Text/inverse",
+"@Neutral/0",
+"@Neutral/900"
+],
+[
+"Text/inverse-subtle",
+"@Neutral/100",
+"@Neutral/800"
+],
+[
+"Text/inverse-muted",
+"@Neutral/200",
+"@Neutral/600"
+],
+[
+"Text/primary",
+"@Primary/Main/100",
+"@Primary/600"
+],
+[
+"Text/primary-selected",
+"@Primary/Main/200",
+"@Primary/500"
+],
+[
+"Text/primary-pressed",
+"@Primary/Main/300",
+"@Primary/200"
+],
+[
+"Text/primary-disabled",
+"@Neutral/200",
+"@Primary/200"
+],
+[
+"Text/onPrimary",
+"@Primary/Main/On",
+"@Primary/Main/On"
+],
+[
+"Text/onPrimary-disabled",
+"@Neutral/300",
+"@Neutral/700"
+],
+[
+"Text/secondary",
+"@Secondary/Main/100",
+"@Neutral/700"
+],
+[
+"Text/secondary-selected",
+"@Secondary/Main/200",
+"@Neutral/700"
+],
+[
+"Text/secondary-pressed",
+"@Secondary/Main/300",
+"@Neutral/700"
+],
+[
+"Text/secondary-disabled",
+"@Neutral/200",
+"@Primary/200"
+],
+[
+"Text/onSecondary",
+"@Secondary/Main/On",
+"@Secondary/Main/On"
+],
+[
+"Text/onSecondary-disabled",
+"@Neutral/300",
+"@Neutral/700"
+],
+[
+"Text/negative",
+"@Red/600",
+"@Red/400"
+],
+[
+"Text/negative-subtle",
+"@Red/100",
+"@Red/200"
+],
+[
+"Text/negative-disabled",
+"@Red/300",
+"@Red/300"
+],
+[
+"Text/positive",
+"@Green/600",
+"@Green/500"
+],
+[
+"Text/positive-subtle",
+"@Green/100",
+"@Green/200"
+],
+[
+"Text/positive-disabled",
+"@Green/50",
+"@Green/200"
+],
+[
+"Text/warning",
+"@Orange/700",
+"@Orange/400"
+],
+[
+"Text/warning-subtle",
+"@Orange/100",
+"@Orange/200"
+],
+[
+"Text/warning-disabled",
+"@Orange/50",
+"@Orange/200"
+],
+[
+"Text/information",
+"@Blue/500",
+"@Blue/400"
+],
+[
+"Text/information-subtle",
+"@Blue/100",
+"@Blue/200"
+],
+[
+"Text/information-disabled",
+"@Blue/50",
+"@Blue/200"
+],
+[
+"Text/link",
+"@Blue/500",
+"@Blue/400"
+],
+[
+"Text/link-hover",
+"@Blue/600",
+"@Blue/300"
+],
+[
+"Text/link-pressed",
+"@Blue/700",
+"@Blue/200"
+],
+[
+"Text/link-disabled",
+"@Blue/200",
+"@Blue/200"
+],
+[
+"Icons/neutral",
+"@Neutral/900",
+"@Neutral/50"
+],
+[
+"Icons/neutral-disabled",
+"@Neutral/300",
+"@Neutral/700"
+],
+[
+"Icons/neutral-subtle",
+"@Neutral/600",
+"@Neutral/600"
+],
+[
+"Icons/neutral-subtle-disabled",
+"@Neutral/250",
+"@Neutral/600"
+],
+[
+"Icons/neutral-muted",
+"@Neutral/400",
+"@Neutral/600"
+],
+[
+"Icons/neutral-muted-disabled",
+"@Neutral/200",
+"@Neutral/600"
+],
+[
+"Icons/primary",
+"@Primary/Main/100",
+"@Primary/600"
+],
+[
+"Icons/primary-selected",
+"@Primary/Main/200",
+"@Primary/500"
+],
+[
+"Icons/primary-pressed",
+"@Primary/Main/300",
+"@Primary/200"
+],
+[
+"Icons/onPrimary",
+"@Primary/Main/On",
+"@Primary/Main/On"
+],
+[
+"Icons/primary-disabled",
+"@Neutral/200",
+"@Primary/200"
+],
+[
+"Icons/primary-static",
+"@Neutral/900",
+"@Neutral/900"
+],
+[
+"Surface/surface 1",
+"@Neutral/0",
+"@Neutral/900"
+],
+[
+"Navigation/Top navigation/Primary/bg-rest",
+"@Primary/600",
+"@Primary/950"
+],
+[
+"Navigation/Top navigation/Secondary/bg-rest",
+"@Secondary/50",
+"@Secondary/950"
+],
+[
+"Navigation/Top navigation/Secondary/bg-hover",
+"@Secondary/100",
+"@Secondary/900"
+],
+[
+"Navigation/Top navigation/Secondary/bg-selected",
+"@Secondary/100",
+"@Secondary/900"
+],
+[
+"Navigation/Top navigation/Secondary/OnRest",
+"@Neutral/950",
+"@Neutral/0"
+],
+[
+"Navigation/Top navigation/Secondary/bg-neutral",
+"@Neutral/800",
+"@Neutral/0"
+],
+[
+"Navigation/Top navigation/Secondary/OnBg-neutral",
+"@Neutral/0",
+"@Neutral/800"
+],
+[
+"Navigation/Top navigation/Primary/bg-hover",
+"@Primary/700",
+"@Primary/900"
+],
+[
+"Navigation/Top navigation/Primary/bg-selected",
+"@Primary/700",
+"@Primary/900"
+],
+[
+"Navigation/Top navigation/Primary/OnRest",
+"@Neutral/0",
+"@Neutral/0"
+],
+[
+"Navigation/Top navigation/Primary/bg-neutral",
+"@Neutral/0",
+"@Neutral/0"
+],
+[
+"Navigation/Top navigation/Primary/OnBg-neutral",
+"@Neutral/800",
+"@Neutral/700"
+],
+[
+"Surface/surface 2",
+"@Neutral/0",
+"@Neutral/900"
+],
+[
+"Surface/surface-secondary",
+"@Secondary/50",
+"@Secondary/900"
+],
+[
+"Surface/Surface-secondary-subtle",
+"@Secondary/300",
+"@Secondary/600"
+],
+[
+"Surface/overlay",
+"@Neutral/0",
+"@Neutral/900"
+],
+[
+"Surface/blue",
+"@Blue/500",
+"@Blue/400"
+],
+[
+"Surface/blue-subtle",
+"@Blue/50",
+"@Blue/700"
+],
+[
+"Surface/red",
+"@Red/500",
+"@Red/500"
+],
+[
+"Surface/red-subtle",
+"@Red/50",
+"@Red/600"
+],
+[
+"Surface/yellow",
+"@Orange/500",
+"@Orange/400"
+],
+[
+"Surface/yellow-subtle",
+"@Orange/50",
+"@Orange/800"
+],
+[
+"Surface/green",
+"@Green/500",
+"@Green/50"
+],
+[
+"Surface/green-subtle",
+"@Green/50",
+"@Green/500"
+],
+[
+"Surface/0",
+"@Neutral/0 @ 0%",
+"@Neutral/1000 @ 0%"
+],
+[
+"Surface/30",
+"@Neutral/0 @ 30%",
+"@Neutral/1000 @ 30%"
+],
+[
+"Surface/70",
+"@Neutral/0 @ 70%",
+"@Neutral/0 @ 70%"
+],
+[
+"Surface/30 Static",
+"@Neutral/0 @ 30%",
+"@Neutral/0 @ 30%"
+],
+[
+"Surface/30 Inverse",
+"@Neutral/1000 @ 30%",
+"@Neutral/1000 @ 30%"
+],
+[
+"Surface/30 Inverse Static",
+"@Neutral/1000 @ 30%",
+"@Neutral/1000 @ 70%"
+],
+[
+"Surface/70 Static",
+"@Neutral/0 @ 70%",
+"@Neutral/0 @ 70%"
+],
+[
+"Surface/70 Inverse",
+"@Neutral/1000 @ 70%",
+"@Neutral/0 @ 70%"
+],
+[
+"Surface/70 Inverse Static",
+"@Neutral/1000 @ 70%",
+"@Neutral/1000 @ 70%"
+],
+[
+"Data visualization/Category 1",
+"@Primary/200",
+"@Primary/200"
+],
+[
+"Data visualization/Category 2",
+"@Orange/100",
+"@Orange/100"
+],
+[
+"Data visualization/Category 3",
+"@Red/100",
+"@Red/100"
+],
+[
+"Data visualization/Category 4",
+"@Green/100",
+"@Green/100"
+],
+[
+"Data visualization/Category 5",
+"@Brown/200",
+"@Brown/200"
+],
+[
+"Data visualization/Category 6",
+"@Magenta/200",
+"@Magenta/200"
+],
+[
+"Data visualization/Category 7",
+"@Mint/100",
+"@Mint/200"
+],
+[
+"Data visualization/Category 8",
+"@Plum/200",
+"@Plum/200"
+],
+[
+"Data visualization/Category 9",
+"@Teal/200",
+"@Teal/200"
+],
+[
+"Data visualization/Category 10",
+"@Reddish pink/200",
+"@Reddish pink/200"
+],
+[
+"Icons/inverse",
+"@Neutral/50",
+"@Neutral/900"
+],
+[
+"Icons/inverse-static",
+"@Neutral/50",
+"@Neutral/50"
+],
+[
+"Icons/secondary",
+"@Secondary/Main/100",
+"@Secondary/50"
+],
+[
+"Icons/secondary-selected",
+"@Secondary/Main/200",
+"@Secondary/50"
+],
+[
+"Icons/secondary-pressed",
+"@Secondary/Main/300",
+"@Secondary/50"
+],
+[
+"Icons/onSecondary",
+"@Secondary/Main/On",
+"@Secondary/Main/On"
+],
+[
+"Icons/secondary-subtle",
+"@Secondary/Subtle/100",
+"@Secondary/500"
+],
+[
+"Icons/secondary-subtle-selected",
+"@Secondary/Subtle/200",
+"@Secondary/500"
+],
+[
+"Icons/secondary-subtle-pressed",
+"@Secondary/Subtle/300",
+"@Secondary/500"
+],
+[
+"Icons/onSecondary-subtle",
+"@Secondary/Subtle/On",
+"@Secondary/500"
+],
+[
+"Icons/negative",
+"@Red/600",
+"@Red/400"
+],
+[
+"Icons/negative-subtle",
+"@Red/100",
+"@Red/100"
+],
+[
+"Icons/negative-disabled",
+"@Red/300",
+"@Red/300"
+],
+[
+"Icons/positive",
+"@Green/500",
+"@Green/400"
+],
+[
+"Icons/positive-subtle",
+"@Green/100",
+"@Green/50"
+],
+[
+"Icons/positive-disabled",
+"@Green/50",
+"@Green/50"
+],
+[
+"Icons/warning",
+"@Orange/500",
+"@Orange/400"
+],
+[
+"Icons/warning-subtle",
+"@Orange/100",
+"@Orange/100"
+],
+[
+"Icons/warning-disabled",
+"@Orange/50",
+"@Orange/100"
+],
+[
+"Icons/information",
+"@Blue/500",
+"@Blue/400"
+],
+[
+"Icons/information-subtle",
+"@Blue/100",
+"@Blue/100"
+],
+[
+"Icons/information-disabled",
+"@Blue/50",
+"@Blue/100"
+],
+[
+"Navigation/Side navigation/Primary/bg-rest",
+"@Primary/600",
+"@Primary/950"
+],
+[
+"Navigation/Side navigation/Secondary/bg-rest",
+"@Secondary/50",
+"@Secondary/950"
+],
+[
+"Navigation/Side navigation/Secondary/bg-hover",
+"@Secondary/100",
+"@Secondary/900"
+],
+[
+"Navigation/Side navigation/Secondary/bg-selected",
+"@Secondary/100",
+"@Secondary/900"
+],
+[
+"Navigation/Side navigation/Secondary/OnRest",
+"@Neutral/950",
+"@Neutral/0"
+],
+[
+"Navigation/Side navigation/Secondary/bg-neutral",
+"@Neutral/800",
+"@Neutral/0"
+],
+[
+"Navigation/Side navigation/Secondary/OnBg-neutral",
+"@Neutral/0",
+"@Neutral/800"
+],
+[
+"Navigation/Side navigation/Primary/bg-hover",
+"@Primary/700",
+"@Primary/900"
+],
+[
+"Navigation/Side navigation/Primary/bg-selected",
+"@Primary/700",
+"@Primary/900"
+],
+[
+"Navigation/Side navigation/Primary/OnRest",
+"@Neutral/0",
+"@Neutral/0"
+],
+[
+"Navigation/Side navigation/Primary/bg-neutral",
+"@Neutral/0",
+"@Neutral/0"
+],
+[
+"Navigation/Side navigation/Primary/OnBg-neutral",
+"@Neutral/800",
+"@Neutral/700"
+],
+[
+"Transparency/Neutral/Neutral 0 @ 0%",
+"#ffffff00",
+"#ffffff00"
+],
+[
+"Transparency/Neutral/Neutral 0 @ 30%",
+"#ffffff4d",
+"#ffffff4d"
+],
+[
+"Transparency/Neutral/Neutral 0 @ 70%",
+"#ffffffb2",
+"#ffffffb2"
+],
+[
+"Transparency/Neutral/Neutral 900 @ 12%",
+"#1a1a1a1f",
+"#1a1a1a1f"
+],
+[
+"Transparency/Neutral/Neutral 900 @ 14%",
+"#1a1a1a24",
+"#1a1a1a24"
+],
+[
+"Transparency/Neutral/Neutral 900 @ 20%",
+"#1a1a1a33",
+"#1a1a1a33"
+],
+[
+"Transparency/Neutral/Neutral 1000 @ 0%",
+"#00000000",
+"#00000000"
+],
+[
+"Transparency/Neutral/Neutral 1000 @ 30%",
+"#0000004d",
+"#0000004d"
+],
+[
+"Transparency/Neutral/Neutral 1000 @ 70%",
+"#000000b2",
+"#000000b2"
+],
+[
+"Transparency/Primary/Primary 600 @ 2%",
+"#7745ad05",
+"#ffffff"
+],
+[
+"Transparency/Primary/Primary 600 @ 6%",
+"#7745ad0f",
+"#ffffff"
+],
+[
+"Transparency/Primary/Primary 600 @ 10%",
+"#7745ad1a",
+"#ffffff"
+],
+[
+"Transparency/Primary/Primary 600 @ 12%",
+"#7745ad1f",
+"#ffffff"
+]
+]
+},
+{
+"c": "Spacing",
+"modes": [
+"1920 x 1080",
+"1366 x 768"
+],
+"v": [
+[
+"Space/None",
+"@Unit/0",
+"@Unit/0"
+],
+[
+"Space/3XS",
+"@Unit/2",
+"@Unit/2"
+],
+[
+"Space/2XS",
+"@Unit/4",
+"@Unit/4"
+],
+[
+"Space/XS",
+"@Unit/6",
+"@Unit/6"
+],
+[
+"Space/S",
+"@Unit/8",
+"@Unit/8"
+],
+[
+"Space/M",
+"@Unit/10",
+"@Unit/10"
+],
+[
+"Space/L",
+"@Unit/12",
+"@Unit/12"
+],
+[
+"Space/XL",
+"@Unit/14",
+"@Unit/14"
+],
+[
+"Space/2XL",
+"@Unit/16",
+"@Unit/16"
+],
+[
+"Space/3XL",
+"@Unit/18",
+"@Unit/18"
+],
+[
+"Space/4XL",
+"@Unit/20",
+"@Unit/20"
+],
+[
+"Space/5XL",
+"@Unit/22",
+"@Unit/22"
+],
+[
+"Space/6XL",
+"@Unit/24",
+"@Unit/24"
+],
+[
+"Space/7XL",
+"@Unit/26",
+"@Unit/26"
+],
+[
+"Space/8XL",
+"@Unit/28",
+"@Unit/28"
+],
+[
+"Space/9XL",
+"@Unit/30",
+"@Unit/30"
+],
+[
+"Space/10XL",
+"@Unit/32",
+"@Unit/32"
+],
+[
+"Space/11XL",
+"@Unit/34",
+"@Unit/34"
+],
+[
+"Space/12XL",
+"@Unit/36",
+"@Unit/36"
+],
+[
+"Space/13XL",
+"@Unit/38",
+"@Unit/38"
+],
+[
+"Space/14XL",
+"@Unit/40",
+"@Unit/40"
+],
+[
+"Space/15XL",
+"@Unit/48",
+"@Unit/48"
+],
+[
+"Space/16XL",
+"@Unit/56",
+"@Unit/56"
+],
+[
+"Space/17XL",
+"@Unit/64",
+"@Unit/64"
+],
+[
+"Space/18XL",
+"@Unit/72",
+"@Unit/72"
+],
+[
+"Space/19XL",
+"@Unit/80",
+"@Unit/80"
+]
+]
+},
+{
+"c": "Border: Primitives",
+"modes": [
+"Mode 1"
+],
+"v": [
+[
+"border radius : Primitives/None",
+"@Unit/0"
+],
+[
+"border radius : Primitives/Pill",
+"@Unit/999"
+],
+[
+"border radius : Primitives/2XS",
+"@Unit/2"
+],
+[
+"Border Width/None",
+"@Unit/0"
+],
+[
+"Border Width/Thin",
+0.5
+],
+[
+"Border Width/Regular",
+"@Unit/1"
+],
+[
+"Border Width/Medium",
+1.5
+],
+[
+"border radius : Primitives/XS",
+"@Unit/4"
+],
+[
+"border radius : Primitives/S",
+"@Unit/8"
+],
+[
+"border radius : Primitives/M",
+"@Unit/12"
+],
+[
+"border radius : Primitives/L",
+"@Unit/16"
+],
+[
+"border radius : Primitives/XL",
+"@Unit/24"
+],
+[
+"border radius : Primitives/2XL",
+"@Unit/32"
+],
+[
+"Border Width/Semi Bold",
+"@Unit/2"
+],
+[
+"Border Width/Bold",
+"@Unit/4"
+],
+[
+"Border Width/Bold-1",
+"@Unit/6"
+],
+[
+"Border Width/Bold-2",
+"@Unit/8"
+],
+[
+"Label count",
+"0/8"
+],
+[
+"border radius : Primitives/3XL",
+"@Unit/48"
+]
+]
+},
+{
+"c": "Type: Primitives",
+"modes": [
+"NucliOS"
+],
+"v": [
+[
+"Family/Graphik",
+"Graphik"
+],
+[
+"Family/Graphik Compact",
+"Graphik Compact"
+],
+[
+"Weight/Lighter weight",
+"Light"
+],
+[
+"Weight/Light Italic",
+"Light Italic"
+],
+[
+"Weight/Regular",
+"Regular"
+],
+[
+"Weight/Medium",
+"Medium"
+],
+[
+"Weight/Bold",
+"Bold"
+],
+[
+"Letter Spacing/XS",
+-1
+],
+[
+"Letter Spacing/S",
+-0.5
+],
+[
+"Letter Spacing/None",
+0
+],
+[
+"Size/10",
+"@Unit/10"
+],
+[
+"Size/12",
+"@Unit/12"
+],
+[
+"Size/14",
+"@Unit/14"
+],
+[
+"Size/16",
+"@Unit/16"
+],
+[
+"Size/18",
+"@Unit/18"
+],
+[
+"Size/20",
+"@Unit/20"
+],
+[
+"Size/24",
+"@Unit/24"
+],
+[
+"Size/28",
+"@Unit/28"
+],
+[
+"Size/32",
+"@Unit/32"
+],
+[
+"Size/40",
+"@Unit/40"
+],
+[
+"Size/48",
+"@Unit/48"
+],
+[
+"Size/56",
+"@Unit/56"
+],
+[
+"Size/64",
+"@Unit/64"
+],
+[
+"Line Height/14",
+"@Unit/14"
+],
+[
+"Size/72",
+"@Unit/72"
+],
+[
+"Line Height/16",
+"@Unit/16"
+],
+[
+"Line Height/20",
+"@Unit/20"
+],
+[
+"Line Height/24",
+"@Unit/24"
+],
+[
+"Line Height/26",
+"@Unit/26"
+],
+[
+"Line Height/28",
+"@Unit/28"
+],
+[
+"Line Height/32",
+"@Unit/32"
+],
+[
+"Line Height/36",
+"@Unit/36"
+],
+[
+"Line Height/40",
+"@Unit/40"
+],
+[
+"Line Height/48",
+"@Unit/48"
+],
+[
+"Line Height/56",
+"@Unit/56"
+],
+[
+"Line Height/64",
+"@Unit/64"
+],
+[
+"Line Height/72",
+"@Unit/72"
+],
+[
+"Line Height/80",
+"@Unit/80"
+],
+[
+"Paragraph Spacing/14",
+"@Space/XL"
+],
+[
+"Paragraph Spacing/16",
+"@Space/2XL"
+],
+[
+"Paragraph Spacing/20",
+"@Space/4XL"
+],
+[
+"Paragraph Spacing/24",
+"@Space/6XL"
+],
+[
+"Paragraph Spacing/26",
+"@Space/7XL"
+],
+[
+"Paragraph Spacing/28",
+"@Space/8XL"
+],
+[
+"Paragraph Spacing/32",
+"@Space/10XL"
+],
+[
+"Paragraph Spacing/36",
+"@Space/11XL"
+],
+[
+"Paragraph Spacing/40",
+"@Space/14XL"
+],
+[
+"Paragraph Spacing/48",
+"@Space/15XL"
+],
+[
+"Paragraph Spacing/56",
+"@Space/16XL"
+],
+[
+"Paragraph Spacing/64",
+"@Space/17XL"
+],
+[
+"Paragraph Spacing/72",
+"@Space/18XL"
+],
+[
+"Paragraph Spacing/80",
+"@Space/19XL"
+]
+]
+},
+{
+"c": "Unit",
+"modes": [
+"Mode 1"
+],
+"v": [
+[
+"Unit/0",
+0
+],
+[
+"Unit/1",
+1
+],
+[
+"Unit/2",
+2
+],
+[
+"Unit/4",
+4
+],
+[
+"Unit/6",
+6
+],
+[
+"Unit/8",
+8
+],
+[
+"Unit/10",
+10
+],
+[
+"Unit/12",
+12
+],
+[
+"Unit/14",
+14
+],
+[
+"Unit/16",
+16
+],
+[
+"Unit/18",
+18
+],
+[
+"Unit/20",
+20
+],
+[
+"Unit/22",
+22
+],
+[
+"Unit/24",
+24
+],
+[
+"Unit/26",
+26
+],
+[
+"Unit/28",
+28
+],
+[
+"Unit/30",
+30
+],
+[
+"Unit/32",
+32
+],
+[
+"Unit/34",
+34
+],
+[
+"Unit/36",
+36
+],
+[
+"Unit/38",
+38
+],
+[
+"Unit/40",
+40
+],
+[
+"Unit/42",
+42
+],
+[
+"Unit/44",
+44
+],
+[
+"Unit/46",
+46
+],
+[
+"Unit/48",
+48
+],
+[
+"Unit/56",
+56
+],
+[
+"Unit/64",
+64
+],
+[
+"Unit/72",
+72
+],
+[
+"Unit/80",
+80
+],
+[
+"Unit/88",
+88
+],
+[
+"Unit/96",
+96
+],
+[
+"Unit/104",
+104
+],
+[
+"Unit/112",
+112
+],
+[
+"Unit/120",
+120
+],
+[
+"Unit/999",
+999
+]
+]
+},
+{
+"c": "Breakpoints",
+"modes": [
+"1920",
+"1366",
+"1280",
+"768",
+"440"
+],
+"v": [
+[
+"compact/screen-width",
+1920,
+1366,
+1280,
+768,
+440
+],
+[
+"compact/screen-height",
+1080,
+768,
+720,
+1024,
+800
+],
+[
+"compact/columns",
+12,
+12,
+12,
+8,
+4
+],
+[
+"compact/margin",
+12,
+12,
+"@Space/S",
+"@Space/S",
+"@Space/2XS"
+],
+[
+"compact/gap",
+12,
+12,
+"@Space/S",
+"@Space/S",
+"@Space/2XS"
+],
+[
+"compact/section-padding-horizontal",
+0,
+0,
+"@Space/None",
+"@Space/None",
+"@Space/None"
+],
+[
+"compact/section-padding-vertical",
+0,
+0,
+"@Space/None",
+"@Space/None",
+"@Space/None"
+],
+[
+"compact/section-padding-gap",
+12,
+12,
+"@Space/S",
+"@Space/S",
+"@Space/2XS"
+],
+[
+"balanced/screen-width",
+1920,
+1366,
+1280,
+768,
+440
+],
+[
+"balanced/screen-height",
+1080,
+768,
+720,
+1024,
+800
+],
+[
+"balanced/columns",
+12,
+12,
+12,
+8,
+4
+],
+[
+"balanced/margin",
+24,
+24,
+16,
+12,
+8
+],
+[
+"balanced/gap",
+24,
+24,
+16,
+12,
+8
+],
+[
+"balanced/section-padding-horizontal",
+16,
+12,
+8,
+8,
+4
+],
+[
+"balanced/section-padding-vertical",
+16,
+12,
+8,
+8,
+4
+],
+[
+"balanced/section-padding-gap",
+16,
+12,
+8,
+8,
+4
+],
+[
+"wide/screen-width",
+1920,
+1366,
+1280,
+768,
+440
+],
+[
+"wide/screen-height",
+1080,
+768,
+720,
+1024,
+800
+],
+[
+"wide/columns",
+12,
+12,
+12,
+8,
+4
+],
+[
+"wide/margin",
+36,
+36,
+24,
+12,
+8
+],
+[
+"wide/gap",
+36,
+36,
+24,
+12,
+8
+],
+[
+"wide/section-padding-horizontal",
+16,
+12,
+8,
+8,
+4
+],
+[
+"wide/section-padding-vertical",
+16,
+12,
+8,
+8,
+4
+],
+[
+"wide/section-padding-gap",
+16,
+12,
+8,
+8,
+4
+]
+]
+},
+{
+"c": "Shadows",
+"modes": [
+"Mode 1"
+],
+"v": [
+[
+"Shadow 1/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 1/sd-01/y",
+"@Unit/1"
+],
+[
+"Shadow 1/sd-01/blur",
+"@Unit/4"
+],
+[
+"Shadow 1/sd-01/spread",
+"@Unit/0"
+],
+[
+"Shadow 1/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 1/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 1/sd-02/y",
+"@Unit/2"
+],
+[
+"Shadow 1/sd-02/blur",
+"@Unit/4"
+],
+[
+"Shadow 1/sd-02/spread",
+"@Unit/0"
+],
+[
+"Shadow 1/sd-02/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 1/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 1/sd-03/y",
+"@Unit/4"
+],
+[
+"Shadow 1/sd-03/blur",
+"@Unit/1"
+],
+[
+"Shadow 1/sd-03/spread",
+-2
+],
+[
+"Shadow 1/sd-03/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 2/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 2/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 2/sd-02/y",
+"@Unit/1"
+],
+[
+"Shadow 2/sd-02/blur",
+"@Unit/8"
+],
+[
+"Shadow 2/sd-02/spread",
+"@Unit/0"
+],
+[
+"Shadow 2/sd-02/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 2/sd-01/y",
+"@Unit/4"
+],
+[
+"Shadow 2/sd-01/blur",
+"@Unit/4"
+],
+[
+"Shadow 2/sd-01/spread",
+"@Unit/0"
+],
+[
+"Shadow 2/sd-01/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 3/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 3/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 3/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 3/sd-03/y",
+"@Unit/4"
+],
+[
+"Shadow 3/sd-03/blur",
+"@Unit/6"
+],
+[
+"Shadow 3/sd-03/spread",
+-1
+],
+[
+"Shadow 3/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 3/sd-02/y",
+"@Unit/6"
+],
+[
+"Shadow 3/sd-02/blur",
+"@Unit/8"
+],
+[
+"Shadow 3/sd-02/spread",
+"@Unit/0"
+],
+[
+"Shadow 3/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 3/sd-01/y",
+"@Unit/1"
+],
+[
+"Shadow 3/sd-01/blur",
+"@Unit/14"
+],
+[
+"Shadow 3/sd-01/spread",
+"@Unit/0"
+],
+[
+"Shadow 3/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 4/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 4/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 4/sd-02/y",
+"@Unit/6"
+],
+[
+"Shadow 4/sd-02/blur",
+"@Unit/10"
+],
+[
+"Shadow 4/sd-02/spread",
+"@Unit/0"
+],
+[
+"Shadow 4/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 4/sd-01/y",
+"@Unit/1"
+],
+[
+"Shadow 4/sd-01/blur",
+"@Unit/18"
+],
+[
+"Shadow 4/sd-01/spread",
+"@Unit/0"
+],
+[
+"Shadow 4/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 4/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 4/sd-03/y",
+"@Unit/4"
+],
+[
+"Shadow 4/sd-03/blur",
+"@Unit/6"
+],
+[
+"Shadow 4/sd-03/spread",
+-1
+],
+[
+"Shadow 4/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 5/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 5/sd-01/y",
+"@Unit/2"
+],
+[
+"Shadow 5/sd-01/blur",
+"@Unit/16"
+],
+[
+"Shadow 5/sd-01/spread",
+"@Unit/1"
+],
+[
+"Shadow 5/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 5/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 5/sd-02/y",
+"@Unit/8"
+],
+[
+"Shadow 5/sd-02/blur",
+"@Unit/10"
+],
+[
+"Shadow 5/sd-02/spread",
+"@Unit/1"
+],
+[
+"Shadow 5/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 5/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 5/sd-03/y",
+"@Unit/4"
+],
+[
+"Shadow 5/sd-03/blur",
+"@Unit/6"
+],
+[
+"Shadow 5/sd-03/spread",
+-2
+],
+[
+"Shadow 5/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 6/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 6/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 6/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 6/sd-03/y",
+"@Unit/6"
+],
+[
+"Shadow 6/sd-03/blur",
+"@Unit/6"
+],
+[
+"Shadow 6/sd-03/spread",
+-3
+],
+[
+"Shadow 6/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 6/sd-02/y",
+"@Unit/8"
+],
+[
+"Shadow 6/sd-02/blur",
+"@Unit/10"
+],
+[
+"Shadow 6/sd-02/spread",
+"@Unit/1"
+],
+[
+"Shadow 6/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 6/sd-01/y",
+"@Unit/4"
+],
+[
+"Shadow 6/sd-01/blur",
+"@Unit/14"
+],
+[
+"Shadow 6/sd-01/spread",
+"@Unit/2"
+],
+[
+"Shadow 6/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 7/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 7/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 7/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 7/sd-03/y",
+"@Unit/8"
+],
+[
+"Shadow 7/sd-03/blur",
+"@Unit/8"
+],
+[
+"Shadow 7/sd-03/spread",
+-4
+],
+[
+"Shadow 7/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 7/sd-02/y",
+"@Unit/12"
+],
+[
+"Shadow 7/sd-02/blur",
+"@Unit/18"
+],
+[
+"Shadow 7/sd-02/spread",
+"@Unit/2"
+],
+[
+"Shadow 7/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 7/sd-01/y",
+"@Unit/6"
+],
+[
+"Shadow 7/sd-01/blur",
+"@Unit/22"
+],
+[
+"Shadow 7/sd-01/spread",
+"@Unit/4"
+],
+[
+"Shadow 7/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 8/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 8/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 8/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 8/sd-03/y",
+"@Unit/8"
+],
+[
+"Shadow 8/sd-03/blur",
+"@Unit/10"
+],
+[
+"Shadow 8/sd-03/spread",
+-5
+],
+[
+"Shadow 8/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 8/sd-02/y",
+"@Unit/16"
+],
+[
+"Shadow 8/sd-02/blur",
+"@Unit/24"
+],
+[
+"Shadow 8/sd-02/spread",
+"@Unit/2"
+],
+[
+"Shadow 8/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 8/sd-01/y",
+"@Unit/6"
+],
+[
+"Shadow 8/sd-01/blur",
+"@Unit/30"
+],
+[
+"Shadow 8/sd-01/spread",
+"@Unit/6"
+],
+[
+"Shadow 8/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 9/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 9/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 9/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 9/sd-03/y",
+"@Unit/10"
+],
+[
+"Shadow 9/sd-03/blur",
+"@Unit/12"
+],
+[
+"Shadow 9/sd-03/spread",
+-5
+],
+[
+"Shadow 9/sd-03/color",
+"@Neutral/950 @ 20%"
+],
+[
+"Shadow 9/sd-02/y",
+"@Unit/18"
+],
+[
+"Shadow 9/sd-02/blur",
+"@Unit/28"
+],
+[
+"Shadow 9/sd-02/spread",
+"@Unit/2"
+],
+[
+"Shadow 9/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 9/sd-01/y",
+"@Unit/8"
+],
+[
+"Shadow 9/sd-01/blur",
+"@Unit/34"
+],
+[
+"Shadow 9/sd-01/spread",
+"@Unit/6"
+],
+[
+"Shadow 9/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 10/sd-01/x",
+"@Unit/0"
+],
+[
+"Shadow 10/sd-01/y",
+"@Unit/8"
+],
+[
+"Shadow 10/sd-01/blur",
+"@Unit/42"
+],
+[
+"Shadow 10/sd-01/spread",
+"@Unit/8"
+],
+[
+"Shadow 10/sd-01/color",
+"@Neutral/950 @ 12%"
+],
+[
+"Shadow 10/sd-02/x",
+"@Unit/0"
+],
+[
+"Shadow 10/sd-02/y",
+"@Unit/22"
+],
+[
+"Shadow 10/sd-02/blur",
+"@Unit/36"
+],
+[
+"Shadow 10/sd-02/spread",
+"@Unit/4"
+],
+[
+"Shadow 10/sd-02/color",
+"@Neutral/950 @ 14%"
+],
+[
+"Shadow 10/sd-03/x",
+"@Unit/0"
+],
+[
+"Shadow 10/sd-03/y",
+"@Unit/10"
+],
+[
+"Shadow 10/sd-03/blur",
+"@Unit/14"
+],
+[
+"Shadow 10/sd-03/spread",
+-6
+],
+[
+"Shadow 10/sd-03/color",
+"@Neutral/950 @ 20%"
+]
+]
+},
+{
+"c": "Type: Semantics",
+"modes": [
+"Mode 1"
+],
+"v": [
+[
+"Body/X-small/Light Italics/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-small/Light Italics/Weight",
+"@Weight/Light Italic"
+],
+[
+"Body/X-small/Light Italics/Size",
+"@Size/10"
+],
+[
+"Body/X-small/Light Italics/Line Height",
+"@Line Height/14"
+],
+[
+"Body/X-small/Light Italics/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-small/Light Italics/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Body/X-small/Light/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-small/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Body/X-small/Light/Size",
+"@Size/10"
+],
+[
+"Body/X-small/Light/Line Height",
+"@Line Height/14"
+],
+[
+"Body/X-small/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-small/Light/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Body/X-small/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-small/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Body/X-small/Regular/Size",
+"@Size/10"
+],
+[
+"Body/X-small/Regular/Line Height",
+"@Line Height/14"
+],
+[
+"Body/X-small/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-small/Regular/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Body/X-small/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-small/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Body/X-small/Medium/Size",
+"@Size/10"
+],
+[
+"Body/X-small/Medium/Line Height",
+"@Line Height/14"
+],
+[
+"Body/X-small/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-small/Medium/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Body/Small/Light/Family",
+"@Family/Graphik"
+],
+[
+"Body/Small/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Body/Small/Light/Size",
+"@Size/12"
+],
+[
+"Body/Small/Light/Line Height",
+"@Line Height/16"
+],
+[
+"Body/Small/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Small/Light/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Body/Small/Light Italics/Family",
+"@Family/Graphik"
+],
+[
+"Body/Small/Light Italics/Weight",
+"@Weight/Light Italic"
+],
+[
+"Body/Small/Light Italics/Size",
+"@Size/12"
+],
+[
+"Body/Small/Light Italics/Line Height",
+"@Line Height/16"
+],
+[
+"Body/Small/Light Italics/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Small/Light Italics/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Body/Small/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Body/Small/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Body/Small/Regular/Size",
+"@Size/12"
+],
+[
+"Body/Small/Regular/Line Height",
+"@Line Height/16"
+],
+[
+"Body/Small/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Small/Regular/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Body/Small/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Body/Small/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Body/Small/Medium/Size",
+"@Size/12"
+],
+[
+"Body/Small/Medium/Line Height",
+"@Line Height/16"
+],
+[
+"Body/Small/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Small/Medium/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Body/Default/Light/Family",
+"@Family/Graphik"
+],
+[
+"Body/Default/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Body/Default/Light/Size",
+"@Size/14"
+],
+[
+"Body/Default/Light/Line Height",
+"@Line Height/20"
+],
+[
+"Body/Default/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Default/Light/Paragraph Spacing",
+"@Paragraph Spacing/20"
+],
+[
+"Body/Default/Light Italics/Family",
+"@Family/Graphik"
+],
+[
+"Body/Default/Light Italics/Weight",
+"@Weight/Light Italic"
+],
+[
+"Body/Default/Light Italics/Size",
+"@Size/14"
+],
+[
+"Body/Default/Light Italics/Line Height",
+"@Line Height/20"
+],
+[
+"Body/Default/Light Italics/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Default/Light Italics/Paragraph Spacing",
+"@Paragraph Spacing/20"
+],
+[
+"Body/Default/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Body/Default/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Body/Default/Regular/Size",
+"@Size/14"
+],
+[
+"Body/Default/Regular/Line Height",
+"@Line Height/20"
+],
+[
+"Body/Default/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Default/Regular/Paragraph Spacing",
+"@Paragraph Spacing/20"
+],
+[
+"Body/Default/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Body/Default/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Body/Default/Medium/Size",
+"@Size/14"
+],
+[
+"Body/Default/Medium/Line Height",
+"@Line Height/20"
+],
+[
+"Body/Default/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Default/Medium/Paragraph Spacing",
+"@Paragraph Spacing/20"
+],
+[
+"Body/Large/Light/Family",
+"@Family/Graphik"
+],
+[
+"Body/Large/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Body/Large/Light/Size",
+"@Size/16"
+],
+[
+"Body/Large/Light/Line Height",
+"@Line Height/24"
+],
+[
+"Body/Large/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Large/Light/Paragraph Spacing",
+"@Paragraph Spacing/24"
+],
+[
+"Body/Large/Light Italics/Family",
+"@Family/Graphik"
+],
+[
+"Body/Large/Light Italics/Weight",
+"@Weight/Light Italic"
+],
+[
+"Body/Large/Light Italics/Size",
+"@Size/16"
+],
+[
+"Body/Large/Light Italics/Line Height",
+"@Line Height/24"
+],
+[
+"Body/Large/Light Italics/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Large/Light Italics/Paragraph Spacing",
+"@Paragraph Spacing/24"
+],
+[
+"Body/Large/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Body/Large/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Body/Large/Regular/Size",
+"@Size/16"
+],
+[
+"Body/Large/Regular/Line Height",
+"@Line Height/24"
+],
+[
+"Body/Large/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Large/Regular/Paragraph Spacing",
+"@Paragraph Spacing/24"
+],
+[
+"Body/Large/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Body/Large/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Body/Large/Medium/Size",
+"@Size/16"
+],
+[
+"Body/Large/Medium/Line Height",
+"@Line Height/24"
+],
+[
+"Body/Large/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/Large/Medium/Paragraph Spacing",
+"@Paragraph Spacing/24"
+],
+[
+"Heading/H5/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H5/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Heading/H5/Regular/Size",
+"@Size/20"
+],
+[
+"Heading/H5/Regular/Line Height",
+"@Line Height/26"
+],
+[
+"Heading/H5/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H5/Regular/Paragraph Spacing",
+"@Paragraph Spacing/26"
+],
+[
+"Heading/H5/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H5/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Heading/H5/Medium/Size",
+"@Size/20"
+],
+[
+"Heading/H5/Medium/Line Height",
+"@Line Height/26"
+],
+[
+"Heading/H5/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H5/Medium/Paragraph Spacing",
+"@Paragraph Spacing/26"
+],
+[
+"Heading/H4/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H4/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Heading/H4/Regular/Size",
+"@Size/24"
+],
+[
+"Heading/H4/Regular/Line Height",
+"@Line Height/32"
+],
+[
+"Heading/H4/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H4/Regular/Paragraph Spacing",
+"@Paragraph Spacing/32"
+],
+[
+"Heading/H4/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H4/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Heading/H4/Medium/Size",
+"@Size/24"
+],
+[
+"Heading/H4/Medium/Line Height",
+"@Line Height/32"
+],
+[
+"Heading/H4/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H4/Medium/Paragraph Spacing",
+"@Paragraph Spacing/32"
+],
+[
+"Heading/H3/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H3/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Heading/H3/Regular/Size",
+"@Size/28"
+],
+[
+"Heading/H3/Regular/Line Height",
+"@Line Height/36"
+],
+[
+"Heading/H3/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H3/Regular/Paragraph Spacing",
+"@Paragraph Spacing/36"
+],
+[
+"Heading/H3/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H3/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Heading/H3/Medium/Size",
+"@Size/28"
+],
+[
+"Heading/H3/Medium/Line Height",
+"@Line Height/36"
+],
+[
+"Heading/H3/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H3/Medium/Paragraph Spacing",
+"@Paragraph Spacing/36"
+],
+[
+"Heading/H2/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H2/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Heading/H2/Regular/Size",
+"@Size/32"
+],
+[
+"Heading/H2/Regular/Line Height",
+"@Line Height/40"
+],
+[
+"Heading/H2/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H2/Regular/Paragraph Spacing",
+"@Paragraph Spacing/40"
+],
+[
+"Heading/H2/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H2/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Heading/H2/Medium/Size",
+"@Size/32"
+],
+[
+"Heading/H2/Medium/Line Height",
+"@Line Height/40"
+],
+[
+"Heading/H2/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H2/Medium/Paragraph Spacing",
+"@Paragraph Spacing/40"
+],
+[
+"Heading/H1/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H1/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Heading/H1/Regular/Size",
+"@Size/48"
+],
+[
+"Heading/H1/Regular/Line Height",
+"@Line Height/64"
+],
+[
+"Heading/H1/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H1/Regular/Paragraph Spacing",
+"@Paragraph Spacing/64"
+],
+[
+"Heading/H1/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Heading/H1/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Heading/H1/Medium/Size",
+"@Size/48"
+],
+[
+"Heading/H1/Medium/Line Height",
+"@Line Height/64"
+],
+[
+"Heading/H1/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Heading/H1/Medium/Paragraph Spacing",
+"@Paragraph Spacing/64"
+],
+[
+"Code/Small/Light/Family",
+"@Family/Graphik"
+],
+[
+"Code/Small/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Code/Small/Light/Size",
+"@Size/10"
+],
+[
+"Code/Small/Light/Line Height",
+"@Line Height/14"
+],
+[
+"Code/Small/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Code/Small/Light/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Code/Small/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Code/Small/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Code/Small/Regular/Size",
+"@Size/10"
+],
+[
+"Code/Small/Regular/Line Height",
+"@Line Height/14"
+],
+[
+"Code/Small/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Code/Small/Regular/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Code/Small/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Code/Small/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Code/Small/Medium/Size",
+"@Size/10"
+],
+[
+"Code/Small/Medium/Line Height",
+"@Line Height/14"
+],
+[
+"Code/Small/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Code/Small/Medium/Paragraph Spacing",
+"@Paragraph Spacing/14"
+],
+[
+"Code/Default/Light/Family",
+"@Family/Graphik"
+],
+[
+"Code/Default/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Code/Default/Light/Size",
+"@Size/12"
+],
+[
+"Code/Default/Light/Line Height",
+"@Line Height/16"
+],
+[
+"Code/Default/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Code/Default/Light/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Code/Default/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Code/Default/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Code/Default/Regular/Size",
+"@Size/12"
+],
+[
+"Code/Default/Regular/Line Height",
+"@Line Height/16"
+],
+[
+"Code/Default/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Code/Default/Regular/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Code/Default/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Code/Default/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Code/Default/Medium/Size",
+"@Size/12"
+],
+[
+"Code/Default/Medium/Line Height",
+"@Line Height/16"
+],
+[
+"Code/Default/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Code/Default/Medium/Paragraph Spacing",
+"@Paragraph Spacing/16"
+],
+[
+"Body/X-Large/Light/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-Large/Light/Weight",
+"@Weight/Lighter weight"
+],
+[
+"Body/X-Large/Light/Size",
+"@Size/18"
+],
+[
+"Body/X-Large/Light/Line Height",
+"@Line Height/28"
+],
+[
+"Body/X-Large/Light/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-Large/Light/Paragraph Spacing",
+"@Paragraph Spacing/28"
+],
+[
+"Body/X-Large/Light Italics/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-Large/Light Italics/Weight",
+"@Weight/Light Italic"
+],
+[
+"Body/X-Large/Light Italics/Size",
+"@Size/18"
+],
+[
+"Body/X-Large/Light Italics/Line Height",
+"@Line Height/28"
+],
+[
+"Body/X-Large/Light Italics/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-Large/Light Italics/Paragraph Spacing",
+"@Paragraph Spacing/28"
+],
+[
+"Body/X-Large/Regular/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-Large/Regular/Weight",
+"@Weight/Regular"
+],
+[
+"Body/X-Large/Regular/Size",
+"@Size/18"
+],
+[
+"Body/X-Large/Regular/Line Height",
+"@Line Height/28"
+],
+[
+"Body/X-Large/Regular/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-Large/Regular/Paragraph Spacing",
+"@Paragraph Spacing/28"
+],
+[
+"Body/X-Large/Medium/Family",
+"@Family/Graphik"
+],
+[
+"Body/X-Large/Medium/Weight",
+"@Weight/Medium"
+],
+[
+"Body/X-Large/Medium/Size",
+"@Size/18"
+],
+[
+"Body/X-Large/Medium/Line Height",
+"@Line Height/28"
+],
+[
+"Body/X-Large/Medium/Letter Spacing",
+"@Letter Spacing/None"
+],
+[
+"Body/X-Large/Medium/Paragraph Spacing",
+"@Paragraph Spacing/28"
+]
+]
+},
+{
+"c": "Border Radius: Semantics",
+"modes": [
+"Default",
+"Square",
+"Round 1",
+"Round 2",
+"Round 3",
+"Round 4"
+],
+"v": [
+[
+"component set 1",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/2XS",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/S",
+"@border radius : Primitives/M",
+"@border radius : Primitives/L"
+],
+[
+"component set 2",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/2XS",
+"@border radius : Primitives/S",
+"@border radius : Primitives/M",
+"@border radius : Primitives/L",
+"@border radius : Primitives/2XL"
+],
+[
+"component set 3",
+"@border radius : Primitives/S",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/M",
+"@border radius : Primitives/L",
+"@border radius : Primitives/XL",
+"@border radius : Primitives/3XL"
+],
+[
+"component set 4",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/2XS",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/XS"
+],
+[
+"container set 1",
+"@border radius : Primitives/XS",
+"@border radius : Primitives/2XS",
+"@border radius : Primitives/S",
+"@border radius : Primitives/S",
+"@border radius : Primitives/M",
+"@border radius : Primitives/M"
+],
+[
+"container set 2",
+"@border radius : Primitives/S",
+"@border radius : Primitives/2XS",
+"@border radius : Primitives/M",
+"@border radius : Primitives/M",
+"@border radius : Primitives/L",
+"@border radius : Primitives/L"
+],
+[
+"container set 3",
+"@border radius : Primitives/M",
+"@border radius : Primitives/2XS",
+"@border radius : Primitives/L",
+"@border radius : Primitives/L",
+"@border radius : Primitives/XL",
+"@border radius : Primitives/XL"
+],
+[
+"pill",
+"@border radius : Primitives/Pill",
+"@border radius : Primitives/Pill",
+"@border radius : Primitives/Pill",
+"@border radius : Primitives/Pill",
+"@border radius : Primitives/Pill",
+"@border radius : Primitives/Pill"
+],
+[
+"none",
+"@border radius : Primitives/None",
+"@border radius : Primitives/None",
+"@border radius : Primitives/None",
+"@border radius : Primitives/None",
+"@border radius : Primitives/None",
+"@border radius : Primitives/None"
+]
+]
+}
+]
