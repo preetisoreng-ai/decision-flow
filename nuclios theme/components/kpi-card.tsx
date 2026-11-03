@@ -1,18 +1,24 @@
 import * as React from "react";
 import { Card } from "@/components/ui/card";
-import { Icons } from "@/components/ui/icons";
 import { cn } from "@/lib/utils";
 
 /**
- * Bento "KPI Card" → "_Standard KPI Cards" (45 variants).
- * Layout: Inline | Stacked | Centered | Split | Hybrid · Content Alignment: Left | Center | Right
+ * Bento "KPI Card" → "_Standard KPI Cards" + PDF Directions Page 2 & Page 3 variants:
+ * - Page 2: Label → Big Value → Delta badge (`↑ 11.8%`) + comparison text (`vs last year`)
+ * - Page 3: Same header + bottom sparkline slot (`sparkline`)
  */
 export interface KpiCardProps extends React.HTMLAttributes<HTMLDivElement> {
   label: string;
   value: React.ReactNode;
-  delta?: { value: string; direction: "up" | "down"; positive?: boolean };
+  delta?: {
+    value: string;
+    direction: "up" | "down";
+    positive?: boolean;
+    label?: string;
+  };
   caption?: React.ReactNode;
   icon?: React.ReactNode;
+  sparkline?: React.ReactNode;
   layout?: "inline" | "stacked" | "centered";
 }
 
@@ -22,7 +28,8 @@ export function KpiCard({
   delta,
   caption,
   icon,
-  layout = "inline",
+  sparkline,
+  layout = "stacked",
   className,
   ...props
 }: KpiCardProps) {
@@ -30,7 +37,7 @@ export function KpiCard({
   return (
     <Card
       className={cn(
-        "gap-(--spacing-2xl) rounded-(--radius-container-set-2) border-(--color-border-muted) bg-(--color-background-kpi) p-(--spacing-3xl) shadow-none",
+        "justify-between gap-(--spacing-l) rounded-(--radius-container-set-2) border-(--color-border-subtle) bg-(--color-background-neutral) px-(--spacing-2xl) py-(--spacing-l) shadow-none",
         layout === "inline" ? "flex-row items-start" : "flex-col",
         layout === "centered" && "items-center text-center",
         className
@@ -45,43 +52,44 @@ export function KpiCard({
           {icon}
         </span>
       )}
-      <div className="flex min-w-0 flex-col gap-(--spacing-l)">
-        <p className="nuclios-type-body-default-regular text-(--color-text-neutral-muted)">
+      <div className="flex min-w-0 flex-1 flex-col gap-(--spacing-xs)">
+        <p className="nuclios-type-body-small-regular text-(--color-text-neutral-subtle)">
           {label}
         </p>
         <div
           className={cn(
-            "flex flex-wrap items-end gap-(--spacing-l)",
+            "flex flex-wrap items-baseline gap-(--spacing-s)",
             layout === "centered" && "justify-center"
           )}
         >
-          <span className="nuclios-type-heading-h3-medium text-(--color-text-neutral)">
+          <span className="nuclios-type-heading-h3-medium tracking-tight text-(--color-text-neutral)">
             {value}
           </span>
-          {delta && (
-            <span
-              className={cn(
-                "mb-1 inline-flex items-center gap-(--spacing-3xs) rounded-(--radius-pill) px-(--spacing-xs) py-(--spacing-3xs) nuclios-type-body-small-medium",
-                good
-                  ? "bg-(--color-background-positive-subtle) text-(--color-text-positive)"
-                  : "bg-(--color-background-negative-subtle) text-(--color-text-negative)"
-              )}
-            >
-              {delta.direction === "up" ? (
-                <Icons.trendingUp className="size-3.5" aria-hidden />
-              ) : (
-                <Icons.trendingDown className="size-3.5" aria-hidden />
-              )}
-              {delta.value}
-            </span>
-          )}
         </div>
-        {caption && (
-          <p className="nuclios-type-body-small-regular text-(--color-text-neutral-muted)">
-            {caption}
-          </p>
+        {(delta || caption) && (
+          <div className="mt-(--spacing-3xs) flex flex-wrap items-center gap-(--spacing-xs)">
+            {delta && (
+              <span
+                className={cn(
+                  "inline-flex items-center gap-(--spacing-3xs) rounded-(--radius-component-set-1) px-(--spacing-xs) py-(--spacing-3xs) nuclios-type-body-x-small-medium",
+                  good
+                    ? "bg-(--color-background-positive-subtle) text-(--color-text-positive)"
+                    : "bg-(--color-background-negative-subtle) text-(--color-text-negative)"
+                )}
+              >
+                <span aria-hidden>{delta.direction === "up" ? "↑" : "↓"}</span>
+                {delta.value}
+              </span>
+            )}
+            {(delta?.label || caption) && (
+              <span className="nuclios-type-body-x-small-regular text-(--color-text-neutral-subtle)">
+                {delta?.label ?? caption}
+              </span>
+            )}
+          </div>
         )}
       </div>
+      {sparkline && <div className="mt-(--spacing-xs) h-10 w-full">{sparkline}</div>}
     </Card>
   );
 }

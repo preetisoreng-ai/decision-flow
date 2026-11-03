@@ -13,10 +13,11 @@ import { Checkbox } from "./selection";
 import { Pagination } from "./pagination";
 
 /**
- * Bento "Tables": Table header (title + actions), Column header cell (Default|Hover|Disabled,
- * sort Arrow Up|Down), Table cell. Composes the base Table.
- * Optional: row selection (checkbox column + select-all), a leading slot per row (e.g. unread dot),
- * per-row classes, custom sort values, and pagination.
+ * Bento "Tables" + NucliOS Dashboard Directions PDF table styling:
+ * - Subtle top header bar (when `title` or `actions` is passed) with `bg-(--color-background-subtle)`
+ *   like Page 1 ("Top products" + "Export") and Page 2 ("Top products" + "View all")
+ * - Clean white column header row with muted labels (`text-(--color-text-neutral-subtle)`)
+ * - Crisp `border-(--color-border-subtle)` row dividers, tabular numbers on right-aligned columns
  */
 export interface Column<T> {
   key: keyof T & string;
@@ -31,6 +32,7 @@ export interface Column<T> {
 
 export interface DataTableProps<T> {
   title?: React.ReactNode;
+  subtitle?: React.ReactNode;
   actions?: React.ReactNode;
   columns: Column<T>[];
   rows: T[];
@@ -53,6 +55,7 @@ export interface DataTableProps<T> {
 
 export function DataTable<T>({
   title,
+  subtitle,
   actions,
   columns,
   rows,
@@ -113,21 +116,33 @@ export function DataTable<T>({
   return (
     <div
       className={cn(
-        "flex flex-col rounded-(--radius-container-set-1) border border-(--color-border-subtle) bg-(--color-background-neutral)",
+        "flex flex-col overflow-hidden rounded-(--radius-container-set-2) border border-(--color-border-subtle) bg-(--color-background-neutral)",
         className
       )}
     >
       {(title || actions) && (
-        <div className="flex items-center justify-between gap-(--spacing-2xl) px-(--spacing-6xl) py-(--spacing-2xl)">
-          <div className="nuclios-type-heading-h5-medium text-(--color-text-neutral)">{title}</div>
-          <div className="flex items-center gap-(--spacing-2xl)">{actions}</div>
+        <div className="flex items-center justify-between gap-(--spacing-2xl) border-b border-(--color-border-subtle) bg-(--color-background-subtle) px-(--spacing-2xl) py-(--spacing-m)">
+          <div className="flex flex-col gap-(--spacing-3xs)">
+            <div className="nuclios-type-body-default-medium text-(--color-text-neutral)">{title}</div>
+            {subtitle && (
+              <p className="nuclios-type-body-x-small-regular text-(--color-text-neutral-subtle)">
+                {subtitle}
+              </p>
+            )}
+          </div>
+          <div className="flex items-center gap-(--spacing-s)">{actions}</div>
         </div>
       )}
       <BaseTable className="nuclios-type-body-default-regular text-(--color-text-neutral)">
-        <TableHeader className="border-b border-(--color-border-muted) bg-(--color-background-subtle)">
+        <TableHeader
+          className={cn(
+            "border-b border-(--color-border-subtle)",
+            title || actions ? "bg-(--color-background-neutral)" : "bg-(--color-background-subtle)"
+          )}
+        >
           <TableRow className="border-0 hover:bg-transparent">
             {lead && (
-              <TableHead className="h-11 w-14 pl-(--spacing-l) pr-0">
+              <TableHead className="h-10 w-14 pl-(--spacing-l) pr-0">
                 <span className="flex items-center gap-(--spacing-s)">
                   <span className="w-2" aria-hidden />
                   {selection && (
@@ -155,7 +170,7 @@ export function DataTable<T>({
                   key={c.key}
                   aria-sort={ariaSort}
                   className={cn(
-                    "h-11 px-(--spacing-6xl) nuclios-type-body-default-medium text-(--color-text-neutral)",
+                    "h-10 px-(--spacing-2xl) nuclios-type-body-small-medium text-(--color-text-neutral-subtle)",
                     lead && c === columns[0] && "pl-(--spacing-l)",
                     c.align === "right" && "text-right",
                     c.align === "center" && "text-center",
@@ -213,14 +228,14 @@ export function DataTable<T>({
                 data-state={selectedKey === k || checked ? "selected" : undefined}
                 onClick={onRowClick ? () => onRowClick(r) : undefined}
                 className={cn(
-                  "border-b border-(--color-border-muted) hover:bg-(--color-background-neutral-hover) data-[state=selected]:bg-(--color-background-primary-muted)",
+                  "border-b border-(--color-border-subtle) last:border-b-0 hover:bg-(--color-background-neutral-hover) data-[state=selected]:bg-(--color-background-primary-muted)",
                   onRowClick && "cursor-pointer",
                   rowClassName?.(r)
                 )}
               >
                 {lead && (
                   <TableCell
-                    className="w-14 pl-(--spacing-l) pr-0 py-(--spacing-l)"
+                    className="w-14 pl-(--spacing-l) pr-0 py-(--spacing-m)"
                     onClick={(e) => e.stopPropagation()}
                   >
                     <span className="flex items-center gap-(--spacing-s)">
@@ -240,7 +255,7 @@ export function DataTable<T>({
                   <TableCell
                     key={c.key}
                     className={cn(
-                      "px-(--spacing-6xl) py-(--spacing-l)",
+                      "px-(--spacing-2xl) py-(--spacing-m)",
                       lead && c === columns[0] && "pl-(--spacing-l)",
                       c.align === "right" && "text-right tabular-nums",
                       c.align === "center" && "text-center",
@@ -256,7 +271,7 @@ export function DataTable<T>({
         </TableBody>
       </BaseTable>
       {pagination && (
-        <div className="border-t border-(--color-border-muted) px-(--spacing-6xl) py-(--spacing-s)">
+        <div className="border-t border-(--color-border-subtle) px-(--spacing-2xl) py-(--spacing-s)">
           <Pagination
             page={page}
             pageSize={pageSize}

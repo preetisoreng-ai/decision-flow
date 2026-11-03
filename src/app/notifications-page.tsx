@@ -15,9 +15,7 @@ const fmt = (at: number) => {
 const icon = "size-4 text-(--color-icons-neutral-subtle)";
 
 /**
- * All Notifications page (Figma "Final Design for All Notification Screen", used as a wireframe):
- * back + title, Filters menu, bulk actions (N selected · delete · mark as read / mark all as read),
- * selectable paginated table with unread dot + bold unread rows and per-row actions.
+ * All Notifications page (matches decision-flow structure with NucliOS PDF table styling).
  */
 export function NotificationsPage({
   items,
@@ -40,11 +38,10 @@ export function NotificationsPage({
   const [selected, setSelected] = React.useState<string[]>([]);
   const shown = items
     .filter((n) => filter === "all" || n.type === filter)
-    .sort((a, b) => b.at - a.at); // newest first; the Timestamp column can re-sort
+    .sort((a, b) => b.at - a.at);
   const active = FILTERS.find((f) => f.key === filter)!;
   const unread = items.filter((n) => !n.read).length;
 
-  // Drop selections that are no longer visible (filtered out or deleted).
   React.useEffect(() => {
     setSelected((s) => s.filter((id) => shown.some((n) => n.id === id)));
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -62,7 +59,14 @@ export function NotificationsPage({
             onClick={() => onOpen(n)}
             className="flex max-w-[460px] flex-col items-start text-left cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-(--color-border-primary-focused) rounded-(--radius-component-set-1)"
           >
-            <span className={cn("nuclios-type-body-default-regular hover:underline", !n.read && "font-(--font-weight-medium)!")}>{n.title}</span>
+            <span
+              className={cn(
+                "nuclios-type-body-default-regular hover:underline",
+                !n.read && "font-(--font-weight-medium)!"
+              )}
+            >
+              {n.title}
+            </span>
             {detail && (
               <span className="line-clamp-1 nuclios-type-body-small-regular font-(--font-weight-regular)! text-(--color-text-neutral-subtle)">
                 {detail}
@@ -159,7 +163,13 @@ export function NotificationsPage({
         />
         <div className="flex items-center gap-(--spacing-l)">
           <Tooltip content="Notification settings">
-            <Button size="small" variant="ghost" iconOnly aria-label="Notification settings" onClick={onSettings}>
+            <Button
+              size="small"
+              variant="ghost"
+              iconOnly
+              aria-label="Notification settings"
+              onClick={onSettings}
+            >
               <Settings className={icon} />
             </Button>
           </Tooltip>
@@ -223,9 +233,7 @@ export function NotificationsPage({
             </span>
           )
         }
-        rowClassName={(n) =>
-          cn(!n.read && "[&_td]:font-(--font-weight-medium)!")
-        }
+        rowClassName={(n) => cn(!n.read && "[&_td]:font-(--font-weight-medium)!")}
         pagination={{ pageSize: 10, pageSizeOptions: [10, 25, 50] }}
         emptyMessage={
           filter === "all"

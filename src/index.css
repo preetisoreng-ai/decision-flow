@@ -5,6 +5,7 @@
    Add one @import line per new theme file. */
 @import "./theme/theme-analytics.css";
 @import "./theme/theme-nuclios.css";
+@import "./theme/theme-screen-eg.css";
 
 @theme {
   /* 📐 Border Radius Tokens (maps to 'Border Radius: Semantics' Default/Square/None modes) */

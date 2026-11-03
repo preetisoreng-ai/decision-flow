@@ -39,7 +39,7 @@ export type ScopeId =
   | "widget:quarterly-impact";
 
 export const scopeLabels: Record<ScopeId, string> = {
-  "screen:size-opportunity": "Size & Opportunity",
+  "screen:size-opportunity": "Opportunity Breakdown",
   "screen:demand-sizing": "Demand Sizing",
   "widget:availability-overview": "Availability — Overview",
   "widget:availability-products": "Availability — Products",

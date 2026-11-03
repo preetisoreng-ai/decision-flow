@@ -159,7 +159,7 @@ export function SideNav({
                         aria-current={c.id === activeId ? "page" : undefined}
                         onClick={() => onSelect?.(c.id)}
                         className={cn(
-                          "flex h-9 w-full items-center rounded-(--radius-component-set-1) px-(--spacing-s) text-left nuclios-type-body-small-regular text-(--color-text-neutral-subtle) cursor-pointer hover:bg-(--color-background-neutral-hover)",
+                          "flex h-9 w-full items-center rounded-(--radius-component-set-1) px-(--spacing-s) text-left nuclios-type-body-default-regular text-(--color-text-neutral-subtle) cursor-pointer hover:bg-(--color-background-neutral-hover)",
                           c.id === activeId &&
                             "font-(--font-weight-bold)! text-(--color-text-primary) bg-(--color-navigation-side-navigation-secondary-bg-selected)"
                         )}

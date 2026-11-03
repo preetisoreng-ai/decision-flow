@@ -1,0 +1,77 @@
+/* 🎨 ============================================================= */
+/* CUSTOM THEME · "screen-eg"                                        */
+/* Palette sampled from the Figma "Comments Design" file, section    */
+/* "screen eg" (node 7824:6676) — Integrated Demand Forecasting.     */
+/*                                                                    */
+/* Colour tokens only; no component is touched. Activate with         */
+/* class="theme-screen-eg" on <html>. Light mode only — dark mode     */
+/* keeps the default NucliOS dark tokens.                             */
+/* ================================================================= */
+
+html.theme-screen-eg:not(.dark) {
+  /* ---- Brand: deep indigo ---- */
+  --color-background-primary: #220047;
+  --color-background-primary-hover: #3d205e;
+  --color-background-primary-pressed: #160030;
+  --color-background-primary-selected: #e9f2fb;
+  --color-background-primary-subtle: #c8bfd1;
+  --color-background-primary-subtle-hover: #ac9fba;
+  --color-background-primary-subtle-pressed: #917fa3;
+  /* Active nav / selected pill: light blue tint from the reference */
+  --color-background-primary-muted: #e9f2fb;
+  --color-background-primary-muted-hover: #dde9f7;
+  --color-background-primary-muted-pressed: #d0e1f4;
+  --color-background-primary-muted-selected: #e9f2fb;
+
+  --color-border-primary: #220047;
+  --color-border-primary-selected: #3d205e;
+  --color-border-primary-pressed: #160030;
+  --color-border-primary-focused: #917fa3;
+
+  --color-text-primary: #220047;
+  --color-text-primary-selected: #3d205e;
+  --color-text-primary-pressed: #160030;
+  --color-text-onprimary: #ffffff;
+
+  --color-icons-primary: #220047;
+  --color-icons-primary-selected: #3d205e;
+  --color-icons-primary-pressed: #160030;
+  --color-icons-onprimary: #ffffff;
+
+  /* ---- Text & icons: indigo-tinted neutrals ---- */
+  --color-text-neutral: #220047;
+  --color-text-neutral-subtle: #3d205e;
+  --color-text-neutral-muted: #75608c;
+  --color-icons-neutral: #220047;
+  --color-icons-neutral-subtle: #75608c;
+
+  /* ---- Links / filter values ---- */
+  --color-text-link: #2b70c2;
+  --color-text-link-hover: #1f5a9f;
+  --color-text-link-pressed: #18487f;
+
+  /* ---- Surfaces & lines ---- */
+  --color-background-subtle: #f6f6f7;
+  --color-background-subtle-hover: #f1eff4;
+  --color-background-neutral-hover: #f4f2f6;
+  --color-background-neutral-pressed: #ece8f0;
+  --color-background-neutral-selected: #e9f2fb;
+  --color-border-subtle: #e7d9e6;
+  --color-border-muted: #e7d9e6;
+  --color-border-neutral: #c8bfd1;
+
+  /* ---- Status ---- */
+  --color-text-negative: #c7202b;
+  --color-background-negative-subtle: #fcf4f4;
+  --color-text-positive: #008063;
+  --color-background-positive-subtle: #ddeeea;
+
+  /* ---- Charts (series order as in the reference legend) ---- */
+  --chart-series-1: #220047; /* indigo     — Forecast, No impact */
+  --chart-series-2: #ffa497; /* salmon     — Actual, Concession */
+  --chart-series-3: #c9def4; /* light blue — Minor impact */
+  --chart-series-4: #dccfbb; /* beige      — Major impact */
+  --chart-series-5: #2ecdaa; /* teal       — Rejected */
+  --chart-grid: #efebf2;
+  --chart-axis: #75608c;
+}

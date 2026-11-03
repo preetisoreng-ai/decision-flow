@@ -100,9 +100,17 @@ export interface ProgressProps extends React.ComponentPropsWithoutRef<
   value: number;
   label?: "none" | "right" | "bottom" | "top";
   text?: string;
+  indicatorClassName?: string;
 }
 
-export function Progress({ value, label = "none", text, className, ...props }: ProgressProps) {
+export function Progress({
+  value,
+  label = "none",
+  text,
+  indicatorClassName,
+  className,
+  ...props
+}: ProgressProps) {
   const pct = Math.max(0, Math.min(100, value));
   const caption = (
     <span className="nuclios-type-body-small-medium text-(--color-text-neutral) whitespace-nowrap">
@@ -124,7 +132,10 @@ export function Progress({ value, label = "none", text, className, ...props }: P
         {...props}
       >
         <ProgressPrimitive.Indicator
-          className="h-full rounded-(--radius-component-set-4) bg-(--color-background-primary) transition-[width] duration-300"
+          className={cn(
+            "h-full rounded-(--radius-component-set-4) bg-(--color-background-primary) transition-[width] duration-300",
+            indicatorClassName
+          )}
           style={{ width: `${pct}%` }}
         />
       </ProgressPrimitive.Root>
@@ -158,22 +169,22 @@ export function Breadcrumb({
   const sep = divider === "slash" ? "/" : divider === "caret" ? "›" : "→";
   const type =
     size === "s"
-      ? "nuclios-type-body-default-regular"
+      ? "nuclios-type-body-small-regular"
       : size === "m"
-        ? "nuclios-type-body-large-regular"
-        : "nuclios-type-body-x-large-regular";
+        ? "nuclios-type-body-default-regular"
+        : "nuclios-type-body-large-regular";
   return (
     <nav aria-label="Breadcrumb" className={className}>
-      <ol className="flex flex-wrap items-center">
+      <ol className="flex flex-wrap items-center gap-(--spacing-2xs)">
         {items.map((c, i) => {
           const current = i === items.length - 1;
           return (
-            <li key={i} className="flex items-center">
+            <li key={i} className="flex items-center gap-(--spacing-2xs)">
               {current ? (
                 <span
                   aria-current="page"
                   className={cn(
-                    "flex items-center gap-(--spacing-s) p-(--spacing-s) font-(--font-weight-medium)! text-(--color-text-primary)",
+                    "flex items-center gap-(--spacing-xs) font-(--font-weight-medium)! text-(--color-text-primary)",
                     type
                   )}
                 >
@@ -183,9 +194,14 @@ export function Breadcrumb({
               ) : (
                 <a
                   href={c.href ?? "#"}
-                  onClick={c.onClick}
+                  onClick={(e) => {
+                    if (c.onClick) {
+                      e.preventDefault();
+                      c.onClick();
+                    }
+                  }}
                   className={cn(
-                    "flex items-center gap-(--spacing-s) rounded-(--radius-component-set-1) p-(--spacing-s) text-(--color-text-neutral-muted) hover:bg-(--color-background-neutral-hover) hover:text-(--color-text-neutral) focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-(--color-border-primary-focused)",
+                    "flex items-center gap-(--spacing-xs) rounded-(--radius-component-set-1) text-(--color-text-neutral-muted) hover:text-(--color-text-neutral) focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-(--color-border-primary-focused)",
                     type
                   )}
                 >
@@ -194,7 +210,7 @@ export function Breadcrumb({
                 </a>
               )}
               {!current && (
-                <span aria-hidden className="px-(--spacing-2xs) text-(--color-text-neutral)">
+                <span aria-hidden className="px-(--spacing-3xs) text-(--color-text-neutral-muted)">
                   {sep}
                 </span>
               )}

@@ -58,7 +58,7 @@ export const SCREENS: ScreenNode[] = [
         name: "Size & Opportunity",
         tabs: [
           { id: "tab-demand-sizing", name: "Demand Sizing" },
-          { id: "tab-size-opportunity", name: "Size & Opportunity" },
+          { id: "tab-size-opportunity", name: "Opportunity Breakdown" },
         ],
       },
       {
@@ -260,7 +260,7 @@ export function NotificationSettingsPage({
   const [draft, setDraft] = React.useState<NotificationSettings>(() => structuredClone(saved));
   const [appView, setAppView] = React.useState<string | null>(null);
   const [expanded, setExpanded] = React.useState<Record<string, boolean>>({});
-  const [openSub, setOpenSub] = React.useState<string | null>(null); // only one sub-screen's tabs at a time
+  const [openSub, setOpenSub] = React.useState<string | null>(null);
   const [confirm, setConfirm] = React.useState<{
     screens: string[];
     threads: SubscribedThread[];
